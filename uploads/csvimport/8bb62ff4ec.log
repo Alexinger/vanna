@@ -1,0 +1,32 @@
+-- Skipping the first line
+Product found (SKU), ID is: 2954
+https://allaerd.org/examples/allaerd.png
+-----> Row
+post status changed to publish
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 2954
+featured image is imported using the URL
+Image with url: https://allaerd.org/examples/allaerd.png uploaded
+The image is attached as featured image
+-----> end row
+Product found (SKU), ID is: 2956
+http://zapchast-bu.ru/wp-content/uploads/shortcodes-ultimate-skins/trampler s provdami.jpg
+-----> Row
+post status changed to publish
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 2956
+featured image is imported using the URL
+Image with url: http://zapchast-bu.ru/wp-content/uploads/shortcodes-ultimate-skins/trampler s provdami.jpg uploaded
+The image is attached as featured image
+-----> end row

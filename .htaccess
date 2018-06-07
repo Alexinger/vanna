@@ -1,0 +1,173 @@
+Options +FollowSymLinks -Indexes
+
+RewriteEngine On
+
+# Block out any script trying to base64_encode data within the URL.
+RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
+# Block out any script that includes a <script> tag in URL.
+RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL.
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL.
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+# Return 403 Forbidden header and show the content of the root homepage
+RewriteRule .* index.php [F]
+#
+## End - Rewrite rules to block out some common exploits.
+
+#### @RS
+# Deny access to php, xml and ini files 
+# within components and plugins directories
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} \.php|\.ini|\.xml [NC]
+RewriteCond %{REQUEST_URI} \/components\/ [OR]
+RewriteCond %{REQUEST_URI} ^\/includes\/|^\/administrator\/includes\/ [OR]
+RewriteCond %{REQUEST_URI} \/language\/ [OR]
+RewriteCond %{REQUEST_URI} \/libraries\/ [OR]
+RewriteCond %{REQUEST_URI} \/modules\/ [OR]
+RewriteCond %{REQUEST_URI} \/plugins\/ [OR]
+RewriteCond %{REQUEST_URI} \/templates\/ [OR]
+RewriteCond %{REQUEST_URI} \/xmlrpc\/
+RewriteRule ^(.*)$ index.php [R=404,L]
+#### @RS
+
+#### @RS
+# Prevent most common SQL-Injections
+RewriteCond %{query_string} concat.*\( [NC,OR]
+RewriteCond %{query_string} union.*select.*\( [NC,OR]
+RewriteCond %{query_string} union.*all.*select [NC]
+RewriteRule ^(.*)$ index.php [F,L]
+#### @RS
+
+#### @RS
+# Block most common hacking tools
+SetEnvIf user-agent "Indy Library" stayout=1
+SetEnvIf user-agent "libwww-perl" stayout=1
+SetEnvIf user-agent "Wget" stayout=1
+deny from env=stayout
+#### @RS
+
+## Begin - Custom redirects
+#
+# If you need to redirect some pages, or set a canonical non-www to
+# www redirect (or vice versa), place that code here. Ensure those
+# redirects use the correct RewriteRule syntax and the [R=301,L] flags.
+#
+## End - Custom redirects
+
+##
+# Uncomment following line if your webserver's URL
+# is not directly related to physical file paths.
+# Update Your Joomla! Directory (just / for root).
+##
+
+#
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+#
+# If the requested path and file is not /index.php and the request
+# has not already been internally rewritten to the index.php script
+RewriteCond %{REQUEST_URI} !^/index\.php
+# and the request is for something within the component folder,
+# or for the site root, or for an extensionless URL, or the
+# requested URL ends with one of the listed extensions
+RewriteCond %{REQUEST_URI} /component/|(/[^.]*|\.(php|html?|feed|pdf|vcf|raw))$ [NC]
+# and the requested path and file doesn't directly match a physical file
+RewriteCond %{REQUEST_FILENAME} !-f
+# and the requested path and file doesn't directly match a physical folder
+RewriteCond %{REQUEST_FILENAME} !-d
+# internally rewrite the request to the index.php script
+RewriteRule .* index.php [L]
+#
+
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+<ifmodule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_item_include file \.js$
+mod_gzip_item_include file \.css$ </ifmodule>
+</IfModule>
+
+<IfModule mod_expires.c>
+# Enable expiration control
+ExpiresActive On
+
+# Default expiration: 1 hour after request
+ExpiresDefault "now plus 1 hour"
+
+# CSS and JS expiration: 1 week after request
+ExpiresByType text/css "now plus 1 week"
+ExpiresByType application/javascript "now plus 1 week"
+ExpiresByType application/x-javascript "now plus 1 week"
+
+# Image files expiration: 1 month after request
+ExpiresByType image/bmp "now plus 1 month"
+ExpiresByType image/gif "now plus 1 month"
+ExpiresByType image/jpeg "now plus 1 month"
+ExpiresByType image/jp2 "now plus 1 month"
+ExpiresByType image/pipeg "now plus 1 month"
+ExpiresByType image/png "now plus 1 month"
+ExpiresByType image/svg+xml "now plus 1 month"
+ExpiresByType image/tiff "now plus 1 month"
+ExpiresByType image/vnd.microsoft.icon "now plus 1 month"
+ExpiresByType image/x-icon "now plus 1 month"
+ExpiresByType image/ico "now plus 1 month"
+ExpiresByType image/icon "now plus 1 month"
+ExpiresByType text/ico "now plus 1 month"
+ExpiresByType application/ico "now plus 1 month"
+ExpiresByType image/vnd.wap.wbmp "now plus 1 month"
+ExpiresByType application/vnd.wap.wbxml "now plus 1 month"
+ExpiresByType application/smil "now plus 1 month"
+
+# Audio files expiration: 1 month after request
+ExpiresByType audio/basic "now plus 1 month"
+ExpiresByType audio/mid "now plus 1 month"
+ExpiresByType audio/midi "now plus 1 month"
+ExpiresByType audio/mpeg "now plus 1 month"
+ExpiresByType audio/x-aiff "now plus 1 month"
+ExpiresByType audio/x-mpegurl "now plus 1 month"
+ExpiresByType audio/x-pn-realaudio "now plus 1 month"
+ExpiresByType audio/x-wav "now plus 1 month"
+
+# Movie files expiration: 1 month after request
+ExpiresByType application/x-shockwave-flash "now plus 1 month"
+ExpiresByType x-world/x-vrml "now plus 1 month"
+ExpiresByType video/x-msvideo "now plus 1 month"
+ExpiresByType video/mpeg "now plus 1 month"
+ExpiresByType video/mp4 "now plus 1 month"
+ExpiresByType video/quicktime "now plus 1 month"
+ExpiresByType video/x-la-asf "now plus 1 month"
+ExpiresByType video/x-ms-asf "now plus 1 month"
+</IfModule>
+########## End - Optimal expiration time
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(js|css|xml|gz)$">
+Header append Vary: Accept-Encoding
+</FilesMatch>
+</IfModule>
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+<Files wp-config.php>
+# Запрещаем всем доступ к файлу wp-config.php
+   order allow,deny 
+   deny from all 
+ </Files>
+
+<Files .htaccess> 
+   order allow,deny 
+   deny from all 
+ </Files>
+AddDefaultCharset utf-8

@@ -1,0 +1,24 @@
+2017-12-21T17:58:45+00:00 DEBUG > > (504) Term Мицубиси (product_cat) exists? Array
+(
+    [term_id] => 87
+    [term_taxonomy_id] => 87
+)
+
+2017-12-21T17:58:45+00:00 DEBUG > > (504) Term Carisma 1997 (product_cat) exists? Array
+(
+    [term_id] => 88
+    [term_taxonomy_id] => 88
+)
+
+2017-12-21T17:58:45+00:00 DEBUG > > (504) Term Фольксваген (product_cat) exists? Array
+(
+    [term_id] => 89
+    [term_taxonomy_id] => 89
+)
+
+2017-12-21T17:58:45+00:00 DEBUG > > (504) Term Golf 3 универсал 1997 1.8 ААМ (product_cat) exists? Array
+(
+    [term_id] => 90
+    [term_taxonomy_id] => 90
+)
+

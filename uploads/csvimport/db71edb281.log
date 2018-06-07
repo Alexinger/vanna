@@ -1,0 +1,26 @@
+-- Skipping the first line
+New product
+http://mailpo.ru/public_html/2111/двигатель/2111 1,5.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3120
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row
+New product
+http://mailpo.ru/public_html/2111/двигатель/korpus s voz filjtra cen 500 (1).jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 3121
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row

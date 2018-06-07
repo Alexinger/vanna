@@ -1,0 +1,47 @@
+-- Skipping the first line
+New product
+https://allaerd.org/examples/allaerd.png
+-----> Row
+Product saved with ID: 2937
+featured image is imported using the URL
+Image with url: https://allaerd.org/examples/allaerd.png uploaded
+The image is attached as featured image
+Image with url: https://allaerd.org/examples/grouped.jpg uploaded
+Image with url: https://allaerd.org/examples/attributes.jpg uploaded
+-----> end row
+New product
+grouped.jpg
+-----> Row
+Product saved with ID: 2941
+featured image is imported using the filename
+The image is attached as featured image
+Image with url: https://allaerd.org/examples/variations.jpg uploaded
+-----> end row
+New product
+allaerd.png
+-----> Row
+Product is on sale
+Product saved with ID: 2943
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row
+New product
+allaerd.png
+-----> Row
+stock status changed to instock
+backorders changed to no
+Product saved with ID: 2944
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row
+New product
+allaerd.png
+-----> Row
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+Product is on sale
+Product saved with ID: 2945
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row

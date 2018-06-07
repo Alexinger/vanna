@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fc07b2d8-1205-464c-b825-4bbfd70ed672" name="art-vanna.in.ua" url="http://alexing.ftp.tools">
+        <fileTransfer host="alexing.ftp.tools" port="21" rootFolder="/art-vanna.in.ua/www/wp-content">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

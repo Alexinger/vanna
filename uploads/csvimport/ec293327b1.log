@@ -1,0 +1,171 @@
+-- Skipping the first line
+Product found (SKU), ID is: 3120
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3120
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3121
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3121
+No featured image available 
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/reshotka rad cen 300.jpg
+
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3141
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/dverj per lev cen 2000.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3142
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/dverj per lev cen 2000.jpg uploaded
+The image is attached as featured image
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/dverj zad lev cen 1500 (1).jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3144
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/dverj zad lev cen 1500 (1).jpg uploaded
+The image is attached as featured image
+Image with url: http://mailpo.ru/2111/кузов/dverj zad lev cen 1500 (2).jpg uploaded
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/bamper per cen 1000.jpg
+
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3147
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/dverj zad prav cena 1500 (1).jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3148
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/dverj zad prav cena 1500 (1).jpg uploaded
+The image is attached as featured image
+Image with url: http://mailpo.ru/2111/кузов/dverj zad prav cena 1500 (2).jpg uploaded
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/bamter zad.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3151
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/bamter zad.jpg uploaded
+The image is attached as featured image
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/dverj per prav cen 2000 (1).jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3153
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/dverj per prav cen 2000 (1).jpg uploaded
+The image is attached as featured image
+Image with url: http://mailpo.ru/2111/кузов/dverj per prav cen 2000 (2).jpg uploaded
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/kapot cen 2000.jpg
+
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3156
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row
+New product
+http://mailpo.ru/2111/кузов/bak cen 1000.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3157
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/bak cen 1000.jpg uploaded
+The image is attached as featured image
+-----> end row
+-----> Row
+No title, slug or content. Filled in dummy content
+post status changed to publish
+ping status changed to ping
+title is empty status changed to draft
+menu order changed to 0
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 3159
+No featured image available 
+-----> end row
+ 
+-----> Row
+No title, slug or content. Filled in dummy content
+post status changed to publish
+ping status changed to ping
+title is empty status changed to draft
+menu order changed to 0
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 3160
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row

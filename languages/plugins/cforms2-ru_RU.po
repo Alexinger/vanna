@@ -1,0 +1,2479 @@
+# Translation of Plugins - cformsII - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - cformsII - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-03 14:25:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - cformsII - Development (trunk)\n"
+
+#: cforms-help.php:921
+msgid "Your form does not look like the preview image or your individual changes do not take effect? Check your global WP theme CSS! It may overwrite some or many cforms CSS declarations."
+msgstr "Ваша форма не похожа на изображение «ПРЕДПРОСМОТР» на странице «Внешний вид» или ваши индивидуальные изменения не вступают в силу? Проверьте файл style.css автивной Темы! Он может перезаписать некоторые  css  правила для cforms."
+
+#: cforms-help.php:918
+msgid "Please see the <a href=\"%s\">Styling page</a> for theme selection."
+msgstr "Пожалуйста, ознакомьтесь со страницей <a href=\"%s\">Внешний вид</a> для выбора темы."
+
+#: cforms-help.php:73
+msgid "All supported input fields are listed below, highlighting the expected formats for their associated Field Names."
+msgstr "Все поддерживаемые поля перечислены ниже, возможные форматы полей подсвечены: "
+
+#: cforms-database.php:72
+msgid "If you want to export your data, please install %sContact Form DB%s."
+msgstr " Если вы хотите экспортировать ваши данные, пожалуйста, установите %sContact Form DB%s. "
+
+#: cforms-database.php:69
+msgid "If you want to export your data, please enable %sCformsII submission capture in Contact Form DB%s."
+msgstr "Если вы хотите экспортировать ваши данные, пожалуйста, установите %sContact Form DB%s. "
+
+#: cforms-database.php:66
+msgid "Copy all submissions to CFDB"
+msgstr "Скопируйте все отслеживания в CFDB"
+
+#: cforms-database.php:61
+msgid "%d submissions were copied to CFDB."
+msgstr "%d отслеживаний было скопировано в CFDB."
+
+#: cforms-database.php:74
+msgid "CFDB 2.10.32 (the current version at release of cformsII 14.14) has some issues importing cformsII data. If you want the original submission date to be retained, file upload and multi-part form support, please use %sBastian Germann's version%s. Later official versions will probably include its changes."
+msgstr "CFDB 2.10.32 (это текущая версия на момент выпуска cformsII версии 14.14) имеет некоторые проблемы импорта данных cformsII. Если вы хотите сохранить первоначальный вид отслеживаний (загрузка файлов, части мульти-форм) — пожалуйста, используйте версию %sBastian Germann%s. В более поздних официальных версиях, вероятно, будут включены эти изменения."
+
+#. Description of the plugin/theme
+msgid "cformsII is a customizable, flexible and powerful form plugin including simple spam protection, multi-step forms, role manager support, submission database tracking and custom themes."
+msgstr "cformsII — гибкий, мощный и легко настраиваемый конструктор форм с простой защитой от спама, возможностью использовать мульти-формы, поддержкой ролей, отслеживанием отправленных данных и индивидуальными стилями CSS  для форм."
+
+#: lib_email.php:207
+msgid "Could not successfully run wp_mail function. There may be a warning in the PHP error log with more information."
+msgstr "Не удалось запустить функцию wp_mail. Для дополнительной информации смотрите лог ошибок PHP."
+
+#: fieldtypes/fieldsetstart.php:38
+msgid "Show this and following fieldsets only if all previous fields were filled out correctly."
+msgstr "Показать эту и следующие группы полей (fieldset) только если все поля были заполнены правильно."
+
+#: cforms-options.php:274
+msgid "cformsII allows you to insert one or more customly designed contact forms, which sends the visitor info via email and optionally stores the feedback in the database."
+msgstr "cformsII позволяет вставить одну или несколько форм с индивидуальным дизайном (CSS),  отсылать копии заполненных данных формы  по электронной почте и, при необходимости, сохранять данные отправленных форм  в базе данных."
+
+#: cforms-help.php:862
+msgid "Multi-part form features:"
+msgstr "Особенности в мульти-формах:"
+
+#: cforms-help.php:749
+msgid "Custom variables in multi-part forms:"
+msgstr "Индивидуальные переменные в мульти-формах:"
+
+#: cforms-help.php:920
+msgid "You might also want to study <a href=\"%s\">A Brief cforms CSS Guide</a>."
+msgstr "Смотрите <a href=\"%s\">учебник по оформлению стилей CSS форм (english only)</a>."
+
+#: cforms-database.php:76
+msgid "All your recorded form submissions are listed below. View individual entries or a whole bunch. Attachments can be accessed in the details section. When deleting an entry, associated attachments will be removed, too! "
+msgstr "Здесь вы найдете все отправленные данные  форм. Можно посмотреть одну запись или несколько. Вложения  доступны в разделе детали. При удалении записи связанные с ним вложения также будут удалены!"
+
+#: cforms-global-settings.php:112
+msgid "Please do not change anything here unless you know what you are doing!"
+msgstr "Пожалуйста, ничего не меняйте здесь если не уверены."
+
+#: cforms-global-settings.php:111
+msgid "All the global and per form settings are listed here as JSON. You can use this as a backup tool if you like."
+msgstr "Все общие настройки и настройки форм перечислены тут как  JSON. Вы можете использовать это как  бэкап настроек."
+
+#: cforms-global-settings.php:164
+msgid "Additional options (JSON)"
+msgstr "Дополнительные опции (JSON)"
+
+#: cforms-options.php:642
+msgid "There are <a href=\"%s\" %s>three additional</a>, <em>predefined variables</em> that can be enabled here."
+msgstr "Есть <a href=\"%s\" %s>три дополнительных</a>, <em>предопределенных переменных</em> , которые могут быть включены здесь."
+
+#. Author of the plugin/theme
+msgid "Oliver Seidel, Bastian Germann"
+msgstr "Oliver Seidel, Bastian Germann"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/cforms2/"
+msgstr "https://ru.wordpress.org/plugins/cforms2/"
+
+#. Plugin Name of the plugin/theme
+msgid "cforms2"
+msgstr "cforms2"
+
+#: lib_widget.php:72
+msgid "Title"
+msgstr "Заголовок"
+
+#: lib_widget.php:25
+msgid "Add any cforms form to your sidebar"
+msgstr "Добавить любую из форм cforms в боковую колонку"
+
+#: cforms-global-settings.php:57
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: lib_options_sub.php:217
+msgid "Form settings updated."
+msgstr "Настройки обновлены."
+
+#: lib_options_sub.php:52
+msgid "Only one <em>Multiple Recipients</em> field is permitted!"
+msgstr "Можно использовать только одно поле <em>несколько получателей</em>!"
+
+#: lib_options_sub.php:47
+msgid "Only one <em>CC:</em> field is permitted!"
+msgstr "Разрешено использование только одного поля <em>CC: копия на email</em>!"
+
+#: cforms-options.php:118
+msgid "The form has been duplicated, you're now working on the copy."
+msgstr "Форма скопирована, вы сейчас работаете с копией."
+
+#: cforms-options.php:113
+msgid "copy of form #"
+msgstr "копия формы #"
+
+#: cforms-options.php:155
+msgid "Form deleted"
+msgstr "Форма удалена"
+
+#: cforms-options.php:97
+msgid "A new form with default fields has been added."
+msgstr "Добавлена новая форма с настройками по умолчанию."
+
+#: cforms-options.php:52
+msgid "A new form"
+msgstr "Новая форма"
+
+#: lib_functions.php:363
+msgid "yyyy"
+msgstr "yyyy"
+
+#: lib_functions.php:363
+msgid "mm"
+msgstr "mm"
+
+#: lib_functions.php:363
+msgid "dd"
+msgstr "dd"
+
+#: lib_functions.php:254
+msgid "In case disabling/enabling doesn't seem to properly set the plugin defaults, try login out and back in and <strong>don't select the checkbox for activation</strong> on the plugin page."
+msgstr "В случае, если плагин нормально не устанавливается или не отключаеться, попробуйте выйти и затем залогиниться обратно, и <strong>не устанавливайте флажок ( checkbox) для активации</strong> на странице плагина."
+
+#: lib_functions.php:241
+msgid "For more information and support, visit the <strong>cforms</strong> %s support forum %s. "
+msgstr "Нужна помощь? Добро пожаловать на %s форум поддержки <strong>cforms</strong> %s (есть русскоязычный раздел форума)."
+
+#: lib_functions.php:138
+msgid "Help!"
+msgstr "Помощь  (Учебник)"
+
+#: lib_functions.php:137
+msgid "Styling"
+msgstr "Внешний вид"
+
+#: lib_functions.php:136
+msgid "Tracking"
+msgstr "Отслеживание"
+
+#: lib_functions.php:77
+msgid "You do not have the proper privileges to access this page."
+msgstr "У вс нет прав доступа к этой странице."
+
+#: lib_email.php:232
+msgid "Could not access file: "
+msgstr "Нет доступа к файлу:"
+
+#: lib_email.php:187
+msgid "You must provide at least one recipient email address."
+msgstr "Необходимо указать хотя бы один email получателя."
+
+#: lib_editor.php:35
+msgid "Insert a form"
+msgstr "Вставить форму"
+
+#: lib_validate.php:881
+msgid "Error occurred while sending the message: "
+msgstr "Ошибка во время отправки сообщения:"
+
+#: lib_validate.php:876
+msgid "Error occurred while sending the auto confirmation message: "
+msgstr "Ошибка во время отправки автоматического письма-уведомления:"
+
+#: lib_functions.php:175
+msgid "December"
+msgstr "Декабрь"
+
+#: lib_functions.php:174
+msgid "November"
+msgstr "Ноябрь"
+
+#: lib_functions.php:173
+msgid "October"
+msgstr "Октябрь"
+
+#: lib_functions.php:172
+msgid "September"
+msgstr "Сентябрь"
+
+#: lib_functions.php:171
+msgid "August"
+msgstr "Август"
+
+#: lib_functions.php:170
+msgid "July"
+msgstr "Июль"
+
+#: lib_functions.php:169
+msgid "June"
+msgstr "Июнь"
+
+#: lib_functions.php:168
+msgid "May"
+msgstr "Май"
+
+#: lib_functions.php:167
+msgid "April"
+msgstr "Апрель"
+
+#: lib_functions.php:162
+msgid "S,M,T,W,T,F,S"
+msgstr "вс,пн,вт,ср,чт,пт,сб"
+
+#: lib_activate.php:134
+msgid "Please double-check your verification code."
+msgstr "Проверьте правильность введенного кода подтверждения."
+
+#: lib_activate.php:133
+msgid "Ten minus five equals=five"
+msgstr "Десять минус четыре=шесть"
+
+#: lib_activate.php:133
+msgid "The color of grass is=green"
+msgstr "2+2=4"
+
+#: lib_activate.php:133
+msgid "What color is snow?=white"
+msgstr "Цвет снега?=белый"
+
+#: lib_activate.php:130
+msgid "File not accepted, file type not allowed."
+msgstr "Не разрешается загружать файлы с таким расширением."
+
+#: lib_activate.php:129
+msgid "File upload failed. Please try again or contact the blog admin."
+msgstr "Ошибка при загрузке. Попробуйте еще раз или сообщите об ошибке администратору сайта."
+
+#: lib_activate.php:128
+msgid "Sorry, file is too large. You may try to zip your file."
+msgstr "Файл слишком большой. Попробуйте заархивировать его."
+
+#: lib_activate.php:127
+msgid "File is empty. Please upload something more substantial."
+msgstr "Файл меньше 1 байта. Попробуйте загрузить что-нибудь более существенное."
+
+#: lib_activate.php:126
+msgid "Generic file upload error. Please try again"
+msgstr "Неизвестная ошибка при загрузке файла. Попробуйте ещё раз."
+
+#: cforms-options.php:80 lib_activate.php:109
+msgid "http://redirect.to.this.page"
+msgstr "http://перенаправить.на.эту.страницу"
+
+#: cforms-options.php:76 lib_activate.php:104
+msgid "One moment please..."
+msgstr "Отправляем…"
+
+#: cforms-options.php:75 lib_activate.php:102
+msgid "No more submissions accepted at this time."
+msgstr "Заявки в настоящее время не принимаются."
+
+#: cforms-options.php:74 lib_activate.php:101
+msgid "Please fill in all the required fields."
+msgstr "Заполните все обязательные поля."
+
+#: cforms-options.php:73 lib_activate.php:100
+msgid "Thank you for your comment!"
+msgstr "Спасибо за комментарий!"
+
+#: cforms-options.php:72 lib_activate.php:99
+msgid "Submit"
+msgstr "Отправить"
+
+#: cforms-options.php:71 lib_activate.php:98
+msgid "A comment from {Your Name}"
+msgstr "Комментарий от  {Ваше имя}"
+
+#: cforms-options.php:53 lib_activate.php:74
+msgid "Re: Submitted form (copy)"
+msgstr "Re: ваша копия"
+
+#: cforms-options.php:53 lib_activate.php:74
+msgid "Re: Your note"
+msgstr "Re: ваш коментарий"
+
+#: lib_activate.php:73
+msgid "Your default form"
+msgstr "Форма по умолчанию"
+
+#: cforms-options.php:49 lib_activate.php:69
+msgid "(valid email required)"
+msgstr "(корректный e-mail)"
+
+#: cforms-options.php:48 lib_activate.php:68
+msgid "(required)"
+msgstr "(обязательно)"
+
+#: lib_activate.php:66
+msgid "Message"
+msgstr "Сообщение"
+
+#: lib_activate.php:65
+msgid "Website"
+msgstr "Сайт"
+
+#: fieldtypes/textonly.php:36
+msgid "Inline style (e.g. %s)"
+msgstr "стиль  (например %s)"
+
+#: fieldtypes/textonly.php:35
+msgid "CSS (assigns class to this form element)"
+msgstr "CSS класс (назначить класс этому элементу формы)"
+
+#: fieldtypes/textonly.php:34
+msgid "Text (HTML is supported)"
+msgstr "Текст (можно использовать HTML)"
+
+#: fieldtypes/text.php:31
+msgid "Regular expression for field validation (e.g. %s). See Help! for more examples."
+msgstr "Регулярное выражение (пример: %s) , т.е. допустимые символы в этом поле. См. примеры в разделе Помощь  (Учебник)."
+
+#: fieldtypes/text.php:30
+msgid "Default value"
+msgstr "Значение по умолчанию"
+
+#: include/lib_database_getentries.php:118
+msgid "Sorry, data not found. Please refresh your data table."
+msgstr "Ничего не найдено."
+
+#: include/lib_database_getentries.php:106
+msgid "IP Lookup"
+msgstr "просмотр IP"
+
+#: include/lib_database_getentries.php:105
+msgid "IP address"
+msgstr "IP адрес"
+
+#: include/lib_database_getentries.php:101
+msgid "Submitted via page"
+msgstr "Отправлено со страницы (Page)"
+
+#: include/lib_database_getentries.php:95
+msgid "-"
+msgstr "-"
+
+#: include/lib_database_getentries.php:72
+msgid "close this entry"
+msgstr "закрыть"
+
+#: include/lib_database_getentries.php:71
+msgid "Delete this entry"
+msgstr "удалить эти данные"
+
+#: include/lib_database_getentries.php:70
+msgid "Form:"
+msgstr "Форма:"
+
+#: lib_widget.php:75
+msgid "Form"
+msgstr "Форма"
+
+#: include/lib_database_deleteentry.php:68
+msgid "Entry successfully removed"
+msgstr "Данные удалены."
+
+#: include/lib_database_deleteentry.php:63
+msgid "(including all attachment/s)"
+msgstr "(включая вложение(я))"
+
+#: include/lib_database_deleteentry.php:61
+msgid "(associated attachment/s were not found!)"
+msgstr "(вложение не найдено!)"
+
+#: include/lib_database_deleteentry.php:59
+msgid "(some associated attachment/s were not found!)"
+msgstr "(вложение не найдено!)"
+
+#: fieldtypes/html5.php:71
+msgid "Placeholder attribute"
+msgstr "Заглушка для:"
+
+#: fieldtypes/html5.php:66
+msgid "Pattern attribute"
+msgstr "Атрибут pattern"
+
+#: fieldtypes/html5.php:57
+msgid "Step value"
+msgstr "Шаг значения"
+
+#: fieldtypes/html5.php:56
+msgid "Max value"
+msgstr "Макс. значение"
+
+#: fieldtypes/html5.php:55
+msgid "Min value"
+msgstr "Мин. значение"
+
+#: fieldtypes/html5.php:45
+msgid "Autofocus flag"
+msgstr "Автофокус"
+
+#: fieldtypes/html5.php:42
+msgid "Autocomplete flag"
+msgstr "Автозаполнение флаг"
+
+#: fieldtypes/checkboxgroup.php:41
+msgid "Carriage return / New Line"
+msgstr "Начать новый ряд"
+
+#: fieldtypes/checkboxgroup.php:39 fieldtypes/selectbox.php:39
+msgid "Optional value (transmitted)"
+msgstr "значение (то, что отправляется)"
+
+#: fieldtypes/checkboxgroup.php:38 fieldtypes/selectbox.php:38
+msgid "Check box/radio box option (displayed)"
+msgstr "Группа переключателей/флажков  (то, что отображается)"
+
+#: fieldtypes/checkboxgroup.php:29 fieldtypes/fieldtype.php:78
+#: fieldtypes/html5.php:29 fieldtypes/selectbox.php:29 fieldtypes/text.php:29
+msgid "Field label"
+msgstr "Поле"
+
+#: fieldtypes/checkbox.php:32 fieldtypes/checkboxgroup.php:31
+#: fieldtypes/html5.php:31 fieldtypes/selectbox.php:31 fieldtypes/text.php:33
+msgid "Custom error message (make sure to enable custom, per field err messages!)"
+msgstr "Индивидуальное сообщение об ошибке (д.б. включено «Показать индивид. сообщение об ошибке»)"
+
+#: fieldtypes/checkbox.php:31 fieldtypes/checkboxgroup.php:30
+#: fieldtypes/html5.php:30 fieldtypes/selectbox.php:30 fieldtypes/text.php:32
+msgid "Input field title (displayed when mouse hovers over field)"
+msgstr "Заголовок (title) — отображается, если навести курсор на поле"
+
+#: fieldtypes/checkbox.php:38 fieldtypes/checkboxgroup.php:40
+#: fieldtypes/selectbox.php:40
+msgid "Set default state"
+msgstr "выбран по умолчанию"
+
+#: fieldtypes/checkbox.php:30
+msgid "...or define a field label to the right of the checkbox"
+msgstr "...или справа от флажка"
+
+#: fieldtypes/checkbox.php:29
+msgid "Field label left of the checkbox..."
+msgstr "Название поле слева от флажка..."
+
+#: lib_functions.php:309
+msgid "Clicking this button WILL delete this form"
+msgstr "Нажмите на эту кнопку чтобы удалить данную форму"
+
+#: lib_functions.php:309
+msgid "Delete current form (!)"
+msgstr "Удалить текущую форму (!)"
+
+#: lib_functions.php:307
+msgid "Clones the current form"
+msgstr "Клонировать текущую форму"
+
+#: lib_functions.php:307
+msgid "Duplicate current form"
+msgstr "Копировать текущую форму"
+
+#: lib_functions.php:306
+msgid "Adds a new form with default values"
+msgstr "Добавить новую форму с полями по умолчанию"
+
+#: lib_functions.php:306
+msgid "Add new form"
+msgstr "Добавить новую форму"
+
+#: lib_functions.php:296 lib_functions.php:311
+msgid "Save & update form settings"
+msgstr "Сохранение / обновление  настроек форм"
+
+#: lib_functions.php:294
+msgid "Delete cforms tracking tables"
+msgstr "Удалить таблицы отслеживания cforms"
+
+#: lib_functions.php:291 lib_functions.php:294
+msgid "Be careful here..."
+msgstr "Внимательнее с этим..."
+
+#: lib_functions.php:291
+msgid "Uninstalling / removing cforms"
+msgstr "Деинсталация / удаление cforms"
+
+#: lib_functions.php:290
+msgid "Outputs -for debug purposes- all cforms settings"
+msgstr "Отладочная информация - все настройки cforms"
+
+#: lib_functions.php:290
+msgid "Produce debug output"
+msgstr "Отладочная информация"
+
+#: lib_render.php:823
+msgid "Note: This will reset all your input!"
+msgstr "Внимание: все введенные данные будут стерты!"
+
+#: lib_functions.php:29
+msgid "Corrupted Settings"
+msgstr "Поврежденные настройки"
+
+#: lib_functions.php:28 lib_functions.php:131 lib_widget.php:24
+msgid "cformsII"
+msgstr "Формы cformsII"
+
+#: lib_functions.php:374
+msgid "Input Field Settings"
+msgstr "Настройки поля"
+
+#: cforms-options.php:978
+msgid "Please choose the next form after this"
+msgstr "Следующая форма после этой формы"
+
+#: cforms-options.php:974
+msgid "* stop here (last form) *"
+msgstr "* конец серии (последняя форма) *"
+
+#: cforms-options.php:959
+msgid "Text for back button"
+msgstr "Текст кнопки «назад»"
+
+#: cforms-options.php:954
+msgid "Add a back button to this form (back to the previous form)"
+msgstr "Добавить кнопку «назад» (переход к предыдущей форме)"
+
+#: cforms-options.php:953
+msgid "Back Button"
+msgstr "Кнопка «назад»"
+
+#: cforms-options.php:947
+msgid "Text for reset button"
+msgstr "Текст кнопки сброса"
+
+#: cforms-options.php:946 cforms-options.php:958
+msgid "Text"
+msgstr "Текст"
+
+#: cforms-options.php:942
+msgid "Add a reset button to this form (reset to the first form in a series)"
+msgstr "Добавить кнопку сброса для этой формы (переход к первой форме в серии)"
+
+#: cforms-options.php:941
+msgid "Reset Button"
+msgstr "Кнопка сброса"
+
+#: cforms-options.php:935
+msgid "This is the *first* form of a series of forms"
+msgstr "Это *первая* форма в серии"
+
+#: cforms-options.php:934
+msgid "First Form"
+msgstr "Первая форма"
+
+#: cforms-options.php:927
+msgid "Mark this form to belong to a series of forms:"
+msgstr "Эта форма — одна из форм в серии:"
+
+#: cforms-options.php:927
+msgid "If enabled, new options will be shown below."
+msgstr "Включить (будут показаны  настройки для серии)."
+
+#: cforms-options.php:912
+msgid "File path: relative to the cforms plugin folder or an absolute path."
+msgstr "Путь к файлу: относительно папки плагина <b>wp-content/plugins/cforms</b> или абсолютный путь."
+
+#: cforms-options.php:911
+msgid "Attachment"
+msgstr "Прикрепленный файл"
+
+#: cforms-options.php:906
+msgid "Can't find the specified <strong>Attachment</strong> (%s)! Please verify the server path!"
+msgstr "Не найден <strong>прикрепленный файл</strong>  (%s)! Убедитесь, что серверный путь указан правильно!"
+
+#: cforms-options.php:892
+msgid "HTML message"
+msgstr "HTML письмо"
+
+#: cforms-options.php:879
+msgid "TEXT message"
+msgstr "Текстовое письмо"
+
+#: cforms-options.php:875
+msgid "Reset auto confirmation message to default"
+msgstr "Восстановить  автоматическое уведомление о доставке письма (по умолчанию)"
+
+#: cforms-options.php:866
+msgid "Subject auto confirmation"
+msgstr "Тема письма-подтверждения"
+
+#: cforms-options.php:862
+msgid "For the <em>auto confirmation</em> feature to work, make sure to mark at least one field <code>Email</code>, otherwise <strong>NO</strong> auto confirmation email will be sent out! If multiple fields are checked \"Email\", only the first in the list will receive a notification."
+msgstr "Для того, чтобы функция <em>автоматического уведомления</em> работала,  убедитесь, что одно из полей формы — <code>Email</code>, иначе <strong>никакого</strong> уведомления выслано не будет! Если в форме несколько полей для email, автоматическое уведомление будет выслано на первый."
+
+#: cforms-options.php:857
+msgid "Activate auto confirmation"
+msgstr "Активировать авто-уведомление"
+
+#: cforms-options.php:850
+msgid "These settings apply to an auto response/confirmation sent to the visitor. If enabled AND your form contains a \"<code>CC me</code>\" field <strong>AND</strong> the visitor selected it, no extra confirmation email is sent!"
+msgstr "Эти настройки применяются для автоматического ответа / уведомления, которое высылается отправителю.Если в форме есть поле \"<code>CC: копия на email</code>\"  и при отправке формы это поле выбрано, то отправителю НЕ отправляется это подтверждение!"
+
+#: cforms-options.php:846
+msgid "Auto Confirmation"
+msgstr "Автоматическое уведомление о доставке письма"
+
+#: cforms-options.php:832
+msgid "Subject CC"
+msgstr "Тема CC (копии сообщения)"
+
+#: cforms-options.php:828
+msgid "This is the subject of the CC email that goes out the user submitting the form and as such requires the <strong>CC:</strong> field in your form definition above."
+msgstr "Здесь можно настроить заголовок для  копии заполенной формы, которая отсылается отправителю на указанный email (если в форме есть поле <code>CC: копия на emai</code>l)."
+
+#: cforms-options.php:824
+msgid "CC Settings"
+msgstr "Настройка CC (копий сообщений)"
+
+#: cforms-options.php:816
+msgid "To avoid sending ALL of the submitted user data (especially for very long forms) to the form admin simply <strong>uncheck</strong> \"<em>Include user input ...</em>\" and instead specify the fields you'd like to receive via the use of <strong>custom variables</strong>."
+msgstr "Чтобы не отсылать администратору все данные из формы (актуально для очень больших форм со множеством полей), можете <strong>снять галочку</strong>  \"<em>Добавить отправленные данные ...</em>\" и указать в шаблоне письма <strong>названия переменных</strong>, которые нужно получать администратору."
+
+#: cforms-options.php:815
+msgid "'Don't like the default form data block in your admin email?  &raquo;"
+msgstr "Не нравится  форма по умолчанию в письме администратору? &raquo;"
+
+#: cforms-options.php:789 cforms-options.php:813
+msgid "<strong>Include</strong> user input at the bottom of the admin email"
+msgstr "<strong>Добавить</strong>  отправленные данные в письмо администратору"
+
+#: cforms-options.php:803
+msgid "<strong>Admin HTML message</strong><br />(Header)"
+msgstr "<strong>Письма администратору HTML</strong> <br />(верхняя часть)"
+
+#: cforms-options.php:797 cforms-options.php:888
+msgid "Enable HTML"
+msgstr "Включить HTML"
+
+#: cforms-options.php:793
+msgid "(# characters) : spacing between labels &amp; data, for plain txt version only"
+msgstr "(# пробелов) : растояние между названиями полей и введенными данными, эта настройка только для текстовой версии письма."
+
+#: cforms-options.php:788 cforms-options.php:812
+msgid "(Footer)"
+msgstr "Нижняя часть"
+
+#: cforms-options.php:778
+msgid "<strong>Admin TEXT message</strong><br />(Header)"
+msgstr "<strong>Письмо администратору</strong> простой текст<br />(верхняя часть)"
+
+#: cforms-options.php:772
+msgid "Reset admin message to default"
+msgstr "Вернуть сообщение для администратора по умолчанию"
+
+#: cforms-options.php:766 cforms-options.php:783 cforms-options.php:807
+#: cforms-options.php:836 cforms-options.php:870 cforms-options.php:883
+#: cforms-options.php:896
+msgid "<a href=\"%s\" %s>Variables</a> allowed."
+msgstr "можно вставить другие <a href=\"%s\" %s>переменные</a>."
+
+#: cforms-options.php:765
+msgid "Subject admin email"
+msgstr "Тема:"
+
+#: cforms-options.php:761
+msgid "BCC"
+msgstr "BCC (скрытая копия)"
+
+#: cforms-options.php:758
+msgid "Simply add additional email addresses separated by a <strong style=\"color:red\">comma</strong>. &nbsp; <em><u>Note:</u></em> &nbsp; If you want the visitor to choose from any of these per select box, you need to add a \"<code>Multiple Recipients</code>\" input field <a href=\"#anchorfields\">above</a> (see the HELP section for <a href=\"%s\" %s>more details</a>. If <strong>no</strong> \"Multiple Recipients\" input field is defined above, the submitted form data will go out to <strong>every address listed</strong>!"
+msgstr "Добавьте дополнительные email адреса, разделяя их <strong style=\"color:red\">запятыми</strong>. &nbsp; <em><u>Внимание:</u></em> &nbsp;Если нужна возможность выбора на какой email посылать письмо, тогда надо добавить в форму поле \"<code>несколько получателей</code>\" <a href=\"#anchorfields\">здесь</a> (смотрите раздел Помощь  (Учебник) <a href=\"%s\" %s>тут</a>). Если <strong>не выбран</strong> получатель в поле  \"Несколько получателей\", то данные отсылаются на <strong>все</strong> email'ы, указанные через запятую в<strong> Получатель (email)</strong>!"
+
+#: cforms-options.php:755
+msgid "More than one \"<strong>form admin</strong>\"? &raquo;"
+msgstr "Несколько \"<strong>получателей</strong>\"? &raquo;"
+
+#: cforms-options.php:754
+msgid "Admin email address(es)"
+msgstr "Получатель (email)"
+
+#: cforms-options.php:749
+msgid "FROM: email address"
+msgstr "От: email адрес"
+
+#: cforms-options.php:745
+msgid "%sExclude empty fields%s from admin email"
+msgstr "%sИсключить пустые поля%s из письма администратору"
+
+#: cforms-options.php:738
+msgid "%sTurn off%s admin email"
+msgstr "%sОтключить%s письма администратору"
+
+#: cforms-options.php:733
+msgid "Below you'll find the settings for both the <strong>TXT part</strong> of the admin email as well as the <strong>optional HTML part</strong> of the message. Both areas permit the use of any of the <strong>pre-defined variables</strong> or <strong>data from input fields</strong>. <a href=\"%s\" %s>Please see the documentation on the HELP page</a> (including HTML message examples!)."
+msgstr "Ниже вы видите данные настройки. \tМожно использовать любую из заранее <strong>определенных переменных</strong> или данных из полей формы. <a href=\"%s\" %s>Смотрите документацию в разделе Помощь (Учебник)</a>  (в том числе и примеры писем с HTML)."
+
+#: cforms-options.php:732
+msgid "Generally, emails sent to the admin and the submitting user can be both in plain text and HTML. The TXT part <strong>is required</strong>, HTML is <strong>optional</strong>."
+msgstr "Письма отправляются администратору (получателю) и отправителю в виде простого текста и html. Текстовая часть <strong>обязательна</strong>,  HTML — <strong>опционально</strong>."
+
+#: cforms-options.php:728
+msgid "Admin Email Message Options"
+msgstr "Настройка писем администратору"
+
+#: cforms-options.php:720
+msgid "If you enable an alternative <strong>form action</strong> you <u>will loose any cforms application logic</u> (spam security, field validation, DB tracking etc.) in non-ajax mode! This setting is really only for developers that require additional capabilities around forwarding of form data and will turn cforms into a front-end only, a \"form builder\" so to speak."
+msgstr "Если вы включите <strong>альтернативное действие формы</strong>, у вас <u>не будут работать</u> некоторые опции (защита от спама, проверка полей, запись данных в базу данных и т.п.) <u>при отключенном Ajax</u>! Эта настройка только для опытных пользователей, которым нужна дополнительная функциональность. Эти настройки превращают cforms в front-end — \"form builder\", так сказать."
+
+#: cforms-options.php:716 cforms-options.php:858
+msgid "Please read note &raquo;"
+msgstr "Примечание &raquo;"
+
+#: cforms-options.php:715
+msgid "Enable alternative form action!"
+msgstr "Включить альтернативное действие формы!"
+
+#: cforms-options.php:713
+msgid "<strong>Send form data</strong><br /> to an alternative page:"
+msgstr "<strong>Перенаправлять после отправки данных формы</strong><br /> на альтернативную страницу:"
+
+#: cforms-options.php:705
+msgid "Enable alternative success page (redirect)"
+msgstr "Включить редирект"
+
+#: cforms-options.php:703
+msgid "<strong>Redirect</strong><br />options:"
+msgstr "<strong>Редирект</strong><br /> на страницу:"
+
+#: cforms-options.php:695
+msgid "Limit text"
+msgstr "Сообщение, если действует ограничение отправок формы"
+
+#: cforms-options.php:686
+msgid "The form is not available anymore."
+msgstr "Форма больше недоступна."
+
+#: cforms-options.php:684
+msgid "The form will be available for another "
+msgstr "Форма будет доступна для другого "
+
+#: cforms-options.php:675
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: cforms-options.php:666
+msgid "The form is available now."
+msgstr "Форма сейчас доступна."
+
+#: cforms-options.php:664
+msgid "The form will be available in "
+msgstr "Форма будет доступна через"
+
+#: cforms-options.php:658 cforms-options.php:679
+msgid "Time entry."
+msgstr "Время"
+
+#: cforms-options.php:658 cforms-options.php:679
+msgid "HH:MM"
+msgstr "ЧЧ:ММ"
+
+#: cforms-options.php:654
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: cforms-options.php:647
+msgid "%sHide form%s after successful submission"
+msgstr "%sСпрятать форму%s после успешной отправки"
+
+#: cforms-options.php:642
+msgid "This will add two more hidden fields to your form to ensure that all data is available also in AJAX mode."
+msgstr "При включенной опции в форму добавляются два скрытых поля для того, чтобы данные были доступны и при включенном AJAX."
+
+#: cforms-options.php:639
+msgid "%sExtra variables%s e.g. {Title}"
+msgstr "%sДополнительные переменные%s, например: {Title}"
+
+#: cforms-options.php:635
+msgid "This feature replaces the default NAMEs/IDs (e.g. <strong>cf_field_12</strong>) with <em>custom ones</em>, either derived from the field label you have provided or by specifically declaring it via <strong>[id:XYZ]</strong>,e.g. <em>Your Name[id:the-name]</em>. This will for instance help to feed data to third party systems (requiring certain input field names in the $_POST variable)."
+msgstr "Эта опция позволит заменить стандартные <strong>имена и ID</strong> (т.е.  <strong>cf_field_12</strong>) своими, для этого нужно объявить имя ID так: <strong>[id:XYZ]</strong>, пример: <em>Ваше имя[id:the-name]</em>.  Это нужно, например, для отсылки данных третьей стороне (см. <em>Настройка уведомлений для 3-ей стороны</em>), где необходимо использовать определенные названия полей в  переменной $_POST"
+
+#: cforms-options.php:632 cforms-options.php:639
+msgid "Read note &raquo;"
+msgstr "Посмотреть заметку &raquo;"
+
+#: cforms-options.php:632
+msgid "Use %scustom input field NAMES &amp; ID's%s"
+msgstr "Использовать для полей %sиндивидуальные ИМЕНА и ID%s"
+
+#: cforms-options.php:626
+msgid "%sExclude this form%s from database tracking"
+msgstr "%sИсключить эту форму%s из отслеживания"
+
+#: cforms-options.php:619
+msgid "%sDo not reset%s input fields after submission"
+msgstr "%sНе сбрасывать%s данные отправленной формы после ее отправки."
+
+#: cforms-options.php:607
+msgid "Disable %s multipart/form-data enctype %s, e.g. to enable salesforce.com"
+msgstr "Отключить%s multipart/form-data enctype %s (например, чтобы использовать сервис salesforce.com)"
+
+#: cforms-options.php:605
+msgid "Core options"
+msgstr "Базовые настройки"
+
+#: cforms-options.php:600
+msgid "The default FROM: address is based on your blog's name and the WP default address. It can be changed, but I highly recommend you do not, as it may render the plugin useless. If you do change the FROM: address, triple check if all admin emails are being sent/received! "
+msgstr "По умолчанию «От»: email и имя берутся из настроек вашего блога (контакты администратора). Их можно изменить, но рекомендуем этого не делать, чтобы плагин корректно работал. Если все же будете менять «От», то очень тщательно проверяйте чтобы все сообщения могли быть отправлены / получены на email'ы администраторов."
+
+#: cforms-options.php:599
+msgid "These settings determine basic cforms behaviour and the form email recipient(s). Both %s and %s formats are valid, but check if your mail server does accept the format of choice!"
+msgstr "Здесь можно настроить вид писем. Можно писать и так: %s и так: %s, главное, чтобы ваш почтовый сервер не возражал против того или иного формата!"
+
+#: cforms-options.php:595
+msgid "Core Form Admin / Email Options"
+msgstr "Настройки получения писем"
+
+#: cforms-options.php:585
+msgid "Field specific error messages will be shown above input field"
+msgstr "Если задано индивидуальное сообщение об ошибке, оно будет показано над полем"
+
+#: cforms-options.php:583
+msgid "Embedded Custom Error<br />Messages"
+msgstr "Показать индивид. сообщение об ошибке"
+
+#: cforms-options.php:579
+msgid "Below form"
+msgstr "Под формой"
+
+#: cforms-options.php:578
+msgid "Above form"
+msgstr "Над формой"
+
+#: cforms-options.php:576
+msgid "Show messages"
+msgstr "Показывать сообщения"
+
+#: cforms-options.php:568
+msgid "<strong>Failure message</strong><br />when missing fields or wrong field<br />formats (regular expr.)"
+msgstr "<strong>Сообщение об ошибках</strong><br />(можно использовать регулярные выражения)"
+
+#: cforms-options.php:559
+msgid "<strong>Success message</strong><br />when form filled out correctly"
+msgstr "<strong>Сообщение после отправки</strong><br />если данные были корректно заполнены"
+
+#: cforms-options.php:554
+msgid "\"email required\" label"
+msgstr "поле \"корректный email\""
+
+#: cforms-options.php:550
+msgid "\"required\" label"
+msgstr "поле \"обязательно\""
+
+#: cforms-options.php:546
+msgid "Waiting message"
+msgstr "Сообщение во время отправки"
+
+#: cforms-options.php:541
+msgid "Submit button text"
+msgstr "Кнопка отправки"
+
+#: cforms-options.php:536
+msgid "These are the messages displayed to the user on successful (or failed) form submission. These messages are form specific, a general message for entering a wrong <strong>visitor verification code</strong> can be found <a href=\"%s\" %s>here</a>."
+msgstr "Здесь находятся сообщения, которые увидит отправитель после отправки данных. Эти настройки индивидуальны для каждой формы. Общие для всех форм настройки сообщений об ошибках при вводе кода подтверждения CHAPCHA или защиты от спама «вопрос-ответ» находятся <a href=\"%s\" %s>здесь</a>."
+
+#: cforms-options.php:532
+msgid "Messages, Text and Button Label"
+msgstr "Настройка сообщений, текстов и кнопок"
+
+#: cforms-options.php:521
+msgid "Do not email attachments"
+msgstr "Не разрешать прикреплять файлы к email"
+
+#: cforms-options.php:516
+msgid "Maximum file size<br />in kilobyte"
+msgstr "Максимальный размер файла<br />в килобайтах"
+
+#: cforms-options.php:512
+msgid "[empty=no files are allowed]"
+msgstr "[оставьте пустым чтобы запретить вс файлы]"
+
+#: cforms-options.php:511
+msgid "Allowed file extensions"
+msgstr "Разрешенные расширения файлов"
+
+#: cforms-options.php:507
+msgid "You may also want to verify the global, file upload specific  <a href=\"%s\" %s>error messages</a>."
+msgstr "Вы также можете установить некоторые настройки (сообщения об ошибках и т.п.) в <a href=\"%s\" %s>Настройки отправки файлов через формы</a>."
+
+#: cforms-options.php:501
+msgid "File Upload Settings"
+msgstr "Настройки поля загрузки файлов"
+
+#: cforms-options.php:482
+msgid "new field(s) @ position"
+msgstr "новое(ых) поле(ей) и порядковый номер"
+
+#: cforms-options.php:481
+msgid "Add"
+msgstr "Добавить"
+
+#: cforms-options.php:481
+msgid "Add more input field(s)"
+msgstr "Добавить 1 или несколько полей"
+
+#: cforms-options.php:450
+msgid "clear field"
+msgstr "очистить поле"
+
+#: cforms-options.php:444
+msgid "email required"
+msgstr "email (обязательно)"
+
+#: cforms-options.php:438
+msgid "input required"
+msgstr "(обязательно)"
+
+#: cforms-options.php:435
+msgid "Remove input field"
+msgstr "Удалить поле"
+
+#: fieldtypes/html5.php:92
+msgid "Week Field"
+msgstr "Неделя (week)"
+
+#: fieldtypes/html5.php:91
+msgid "URL Field"
+msgstr "Ссылка (URL)"
+
+#: fieldtypes/html5.php:90
+msgid "Time Field"
+msgstr "Время (time)"
+
+#: fieldtypes/html5.php:93
+msgid "Telephone Number Field"
+msgstr "Yомер телефона (telephone number)"
+
+#: fieldtypes/html5.php:89
+msgid "Search Field"
+msgstr "Поиск (search)"
+
+#: fieldtypes/html5.php:88
+msgid "Range Field"
+msgstr "Диапазон (range)"
+
+#: fieldtypes/html5.php:87
+msgid "Number Field"
+msgstr "Нмер (number)"
+
+#: fieldtypes/html5.php:86
+msgid "Month Field"
+msgstr "Месяц (month)"
+
+#: fieldtypes/html5.php:85
+msgid "Email Field"
+msgstr "Email"
+
+#: fieldtypes/html5.php:84
+msgid "Date/Time (local) Field"
+msgstr "Дата/Время локальные (date/time local)"
+
+#: fieldtypes/html5.php:83
+msgid "Date/Time Field"
+msgstr "Дата/Время (date/time)"
+
+#: fieldtypes/html5.php:82
+msgid "Date Field"
+msgstr "Дата (date)"
+
+#: fieldtypes/html5.php:81
+msgid "Color Field"
+msgstr "Цвет (color)"
+
+#: cforms-options.php:427
+msgid "--- HTML5 form fields ---"
+msgstr "----- HTML5 поля формы ------"
+
+#: fieldtypes/selectbox.php:49
+msgid "Multiple Recipients"
+msgstr "Несколько получателей"
+
+#: fieldtypes/checkbox.php:45
+msgid "CC: option for user"
+msgstr "CC: копия на email"
+
+#: cforms-options.php:414
+msgid "--------- Special ------------"
+msgstr "--------- Специальное ------------"
+
+#: fieldtypes/text.php:45
+msgid "Hidden Field"
+msgstr "Скрытое поле"
+
+#: fieldtypes/text.php:44
+msgid "Password Field"
+msgstr "Пароль"
+
+#: fieldtypes/text.php:42
+msgid "Date Entry/Dialog"
+msgstr "Дата"
+
+#: fieldtypes/text.php:41
+msgid "File Upload Box"
+msgstr "Загрузка файла"
+
+#: fieldtypes/selectbox.php:51
+msgid "Multi Select Box"
+msgstr "Множественный выбор (multi select)"
+
+#: fieldtypes/selectbox.php:50
+msgid "Select Box"
+msgstr "Выпадающий список (select)"
+
+#: fieldtypes/checkboxgroup.php:55
+msgid "Radio Buttons"
+msgstr "Переключатель (radio)"
+
+#: fieldtypes/checkboxgroup.php:54
+msgid "Check Box Group"
+msgstr "Группа флажков (check box group)"
+
+#: fieldtypes/checkbox.php:46
+msgid "Check Box"
+msgstr "Флажок (check box)"
+
+#: fieldtypes/text.php:43
+msgid "Multiple lines of text"
+msgstr "Текстовое поле (textarea)"
+
+#: fieldtypes/text.php:40
+msgid "Single line of text"
+msgstr "Поле ввода (input)"
+
+#: fieldtypes/textonly.php:28
+msgid "Text only (no input)"
+msgstr "Просто текст (не input)"
+
+#: fieldtypes/multiid.php:48
+msgid "End Fieldset"
+msgstr "Конец группы (fieldset)"
+
+#: fieldtypes/fieldsetstart.php:27
+msgid "Begin Fieldset"
+msgstr "Начало группы (fieldset)"
+
+#: cforms-options.php:405
+msgid "----- General form fields ----"
+msgstr "----- Общие поля формы ------"
+
+#: cforms-options.php:404
+msgid "Pick a field type"
+msgstr "Выбрать тип поля"
+
+#: cforms-options.php:403
+msgid "Edit"
+msgstr "редактировать"
+
+#: cforms-options.php:399
+msgid "Please enter field definition"
+msgstr "Название поля"
+
+#: cforms-options.php:397
+msgid "Drag me"
+msgstr "Перетащить"
+
+#: cforms-options.php:344 cforms-options.php:361
+msgid "New Field"
+msgstr "Новое поле"
+
+#: cforms-options.php:309 cforms-options.php:462
+msgid "read-only"
+msgstr "Только для чтения"
+
+#: cforms-options.php:309
+msgid "Form field will be readonly!"
+msgstr "Только для чтения!"
+
+#: cforms-options.php:308 cforms-options.php:456
+msgid "disabled"
+msgstr "Disabled (недоступно)"
+
+#: cforms-options.php:308
+msgid "Grey's out a form field (field will be completely disabled)."
+msgstr "Серый цвет поля формы (поле недоступно)."
+
+#: cforms-options.php:307
+msgid "auto-clear"
+msgstr "авто-очистка"
+
+#: cforms-options.php:307
+msgid "Clears the field (default value) upon focus."
+msgstr "Очищает поле, когда в него поставлен курсор"
+
+#: cforms-options.php:306
+msgid "e-mail"
+msgstr "Email"
+
+#: cforms-options.php:306
+msgid "Makes the field required and verifies the email address."
+msgstr "Отметьте, если хотите чтобы эл. адрес проверялся на валидность"
+
+#: cforms-options.php:305
+msgid "required"
+msgstr "обязательно"
+
+#: cforms-options.php:305
+msgid "Makes an input field required for proper form validation."
+msgstr "Делает поле обязательным к заполнению."
+
+#: cforms-options.php:304
+msgid "Type"
+msgstr "Тип"
+
+#: cforms-options.php:304
+msgid "Pick one of the supported input field types."
+msgstr "Выберите одно из типов полей."
+
+#: cforms-options.php:303
+msgid "Field Name"
+msgstr "Поле"
+
+#: cforms-options.php:303
+msgid "Can be a simple label or a more complex expression. See Help!"
+msgstr "Здесь может быть просто текст или регулярные выражения. См. в  Помощь  (Учебник)"
+
+#: cforms-options.php:301
+msgid "Please save the new order of fields (<em>Update Settings</em>)!"
+msgstr "Сохраните новый порядок полей (кнопка <em>сохранить</em>)!"
+
+#: cforms-options.php:296
+msgid "Besides the generic success &amp; failure messages below, you can add <a href=\"%s\" %s>custom error messages</a>."
+msgstr "Вы можете также добавлять <a href=\"%s\" %s>индивидуальные сообщения об ошибках</a> — помимо общих, действительных для всех полей сообщений об ошибках."
+
+#: cforms-options.php:295
+msgid "use <a href=\"%s\" %s>default values</a> &amp; <a href=\"%s\" %s>regular expressions</a> for single &amp; multi-line fields. "
+msgstr " использованию <a href=\"%s\" %s>значений по умолчанию</a> и <a href=\"%s\" %s>регулярных выражений</a> для полей формы.  "
+
+#: cforms-options.php:294
+msgid "set up forms using <a href=\"%s\" %s>FIELDSETS</a>,"
+msgstr "использованию <a href=\"%s\" %s>FIELDSETS</a>,"
+
+#: cforms-options.php:293
+msgid "Please see the <strong>Help!</strong> section for information on how to deploy the various <a href=\"%s\" %s>supported fields</a>,"
+msgstr "Смотрите в разделе <strong>Помощь  (Учебник)</strong> справку по <a href=\"%s\" %s>типам полей</a>,"
+
+#: cforms-options.php:284
+msgid "Ajax enabled"
+msgstr "включить Ajax"
+
+#: cforms-options.php:283 cforms-options.php:284
+msgid "Enables or disables Ajax support for this form."
+msgstr "Включить или отключить поддержку Ajax для этой формы."
+
+#: cforms-options.php:282
+msgid "You may give each form an optional name to better identify incoming emails."
+msgstr "Дайте каждой форме свое название для удобства"
+
+#: cforms-options.php:275
+msgid "<a href=\"%s\" %s>Here</a> is a quick step by step quide to get you up and running quickly."
+msgstr "<a href=\"%s\" %s>Ознакомьтесь</a> сначала с основными функциями и особенностями, чтобы узнать что да как тут все устроено и как этим пользоваться."
+
+#: cforms-options.php:258
+msgid "Go"
+msgstr "ок"
+
+#: cforms-options.php:257
+msgid "Navigate to"
+msgstr "Перейти к"
+
+#: cforms-options.php:254
+msgid "Navigate to your other forms."
+msgstr "Перейти к другим вашим формам."
+
+#: cforms-options.php:251 lib_functions.php:133
+msgid "Form Settings"
+msgstr "Настройки формы"
+
+#: cforms-options.php:55 cforms-options.php:191 lib_activate.php:77
+msgid "This is an automatic confirmation message."
+msgstr "автоматическое уведомление о доставке письма"
+
+#: cforms-options.php:67 cforms-options.php:186 lib_activate.php:92
+msgid "A form has been submitted on {Date}, via: {Page} [IP {IP}]"
+msgstr "отправлено {Date}, со страницы: {Page} [IP {IP}]"
+
+#: cforms-options.php:66 cforms-options.php:185 lib_activate.php:91
+msgid "By {IP} (visitor IP)"
+msgstr "IP отправителя:  {IP}"
+
+#: cforms-options.php:66 cforms-options.php:185 lib_activate.php:91
+msgid "Via: {Page}"
+msgstr "Со страницы: {Page}"
+
+#: cforms-options.php:66 cforms-options.php:185 lib_activate.php:91
+msgid "Submitted on: {Date}"
+msgstr "Дата: {Date}"
+
+#: cforms-options.php:66 cforms-options.php:185 lib_activate.php:91
+msgid "A new submission (form: \"{Form Name}\")"
+msgstr "Новое сообщение (от: \"{Form Name}\")"
+
+#: cforms-help.php:919
+msgid "cforms comes with a few theme examples (some of them may require adjustments to work with <strong>your</strong> forms!) but you can of course create your own theme file -based on the default <strong>cforms.css</strong> file- and put it in the %s directory."
+msgstr "В cforms включено несколько файлов стилей (некоторые стили могут не совсем корректно работать с созданными вами формами!), но вы также можете создать свой файл стилей для форм на примере <strong>cforms.css</strong> и поместить свой файл стилей в папку %s (в папке плагина!)"
+
+#: cforms-help.php:909
+msgid "Once the multi-part form support is enabled, %1$sAJAX is being disabled%2$s for this form."
+msgstr "Если в настройках формы включена поддержка мульти-форм, то %1$sAJAX отключается%2$s для этой формы."
+
+#: cforms-help.php:906
+msgid "Important Notes:"
+msgstr "Важно:"
+
+#: cforms-help.php:902
+msgid "Further, it makes sense to change \"Submit Button\" text (to e.g. \"Continue\") &amp; the \"success message\" to rather announce the next form."
+msgstr "Далее, имеет смысл изменить текст кнопки отправки формы (например, на «следующий шаг») и сообщение об успешной отправке формы, чтобы было понятно, что это часть мульти-формы и  впереди есть следующая форма."
+
+#: cforms-help.php:899
+msgid "Optionally add Reset &amp; Back buttons where appropriate."
+msgstr "По желанию добавьте кнопки сброса и «назад» где необходимо (отметить соотв. флажки)"
+
+#: cforms-help.php:896
+msgid "(b) select \"last form\" to stop further routing"
+msgstr "(b) отметьте флажок \"конец серии (последняя форма)\""
+
+#: cforms-help.php:896
+msgid "(a) make sure to not! have \"Suppress admin email..\" selected"
+msgstr "(a) убедитесь, что вы НЕ отметили флажок \"Email & отслеживание\""
+
+#: cforms-help.php:895
+msgid "form 3:"
+msgstr "Форма 3:"
+
+#: cforms-help.php:892
+msgid "(b) select \"form 3\" as next form"
+msgstr "(b) выберите \"Форма 3\" как следующую форму"
+
+#: cforms-help.php:891
+msgid "form 2:"
+msgstr "Форма 2:"
+
+#: cforms-help.php:888
+msgid "(c) select \"form 2\" as next form"
+msgstr "(c) выберите \"Форма 2\" как следующую форму"
+
+#: cforms-help.php:888
+msgid "(b) check \"This is the first form..\""
+msgstr "(b) отметьте флажок \"Первая форма\""
+
+#: cforms-help.php:888 cforms-help.php:892
+msgid "(a) check \"Suppress admin email..\""
+msgstr "(a) отметьте  флажок \"Email & отслеживание\""
+
+#: cforms-help.php:887
+msgid "form 1:"
+msgstr "Форма 1:"
+
+#: cforms-help.php:884
+msgid "select main check box to enable as multi-part forms"
+msgstr "включите мульти-форму (чекбокс в настройке формы «Мульти-форма»)"
+
+#: cforms-help.php:883
+msgid "form 1,2,3:"
+msgstr "формы 1,2,3:"
+
+#: cforms-help.php:880
+msgid "Example (eg. using 3 forms):"
+msgstr "Пример (3 формы в серии):"
+
+#: cforms-help.php:874
+msgid "A form back button"
+msgstr "Кнопка «назад»"
+
+#: cforms-help.php:871
+msgid "A form reset button"
+msgstr "Кнопку сброса"
+
+#: cforms-help.php:868
+msgid "Optionally send/suppress partial admin emails on a per form basis"
+msgstr "Отключите или оставьте включенными для каждой формы отслеживание и отправку на e-mail администратору"
+
+#: cforms-help.php:865
+msgid "Defining first, next and last form via configuration"
+msgstr "Сперва определите первую форму в серии (в настройках формы)"
+
+#: cforms-help.php:858
+msgid "Multi-part forms support chaining of several forms and gather user input across all linked forms. Inserting a multi-part form is easy, simply insert the %s first form %s of the series into your post or page."
+msgstr "Мульти-форма состоит из серии связанных в цепочку  форм, т.е. пользователь заполнит несколько форм друг за другом прежде, чем нажмет кнопку отправки. Вставить мульти-форму просто:  вставьте %s первую форму %s  из серии в запись (Пост) или Статическую страницу."
+
+#: cforms-help.php:846
+msgid "Dear John Doe,"
+msgstr "Здравствуйте, Иван Иванович!"
+
+#: cforms-help.php:839 cforms-help.php:848 cforms-options.php:54
+#: cforms-options.php:55 cforms-options.php:190 cforms-options.php:191
+#: lib_activate.php:76 lib_activate.php:77
+msgid "We will get back to you as soon as possible."
+msgstr "Мы ответим Вам в ближайшее время."
+
+#: cforms-help.php:838 cforms-help.php:847 cforms-options.php:54
+#: cforms-options.php:55 cforms-options.php:190 cforms-options.php:191
+#: lib_activate.php:76 lib_activate.php:77
+msgid "Thank you for your note!"
+msgstr "Спасибо за Ваше письмо!"
+
+#: cforms-help.php:837 cforms-options.php:54 cforms-options.php:55
+#: cforms-options.php:190 cforms-options.php:191 lib_activate.php:76
+#: lib_activate.php:77
+msgid "Dear {Your Name},"
+msgstr "Здравствуйте, {Ваше имя}!"
+
+#: cforms-help.php:836 cforms-help.php:845
+msgid "auto confirmation message"
+msgstr "автоматическое уведомление о доставке письма"
+
+#: cforms-help.php:830
+msgid "And a final example for a <a href=\"%s\" %s>HTML auto confirmation message</a>:"
+msgstr "Пример <a href=\"%s\" %s> автоматического уведомления о доставке письма (HTML)</a>:"
+
+#: cforms-help.php:823
+msgid "With this more detailed message you can disable the option \"Include pre formatted form data table in HTML part\" since you already have all fields covered in the actual message/header."
+msgstr "Для такого более детального письма рекомендуем отключить опцию \"Добавить отформатированную форму в HTML письмо\""
+
+#: cforms-help.php:818
+msgid "Hey there! Just wanted to get in touch. Give me a ring at 555-..."
+msgstr "Здравствуйте! Интересует сотрудничество. Позвоните мне по телефону 555-…"
+
+#: cforms-help.php:816
+msgid "John Doe just submitted MY NEW FORM. You can get in touch with him/her via <a href=\"mailto:#\">john.doe@doe.com</a> and might want to check out his/her web page at <a href=\"#\">http://website.com</a>"
+msgstr "Иван Иванович только что заполнил(а) ФОРМА ОБРАТНОЙ СВЯЗИ. Указаны: эл. адрес <a href=\"mailto:#\">john.doe@doe.com</a> и сайт <a href=\"#\">http://website.com</a>"
+
+#: cforms-help.php:810
+msgid "{Message}"
+msgstr "{Сообщение}"
+
+#: cforms-help.php:810 cforms-help.php:817
+msgid "The message is:"
+msgstr "Сообщение:"
+
+#: cforms-help.php:810
+msgid "{Your Name} just submitted {Form Name}. You can get in touch with him/her via &lt;a href=\"mailto:{Email}\"&gt;{Email}&lt;/a&gt; and might want to check out his/her web page at &lt;a href=\"{Website}\"&gt;{Website}&lt;/a&gt;"
+msgstr "{Ваше имя} только что заполнил(а) {ФОРМА ОБРАТНОЙ СВЯЗИ}. Указаны: эл. адрес &lt;a href=\"mailto:{Email}\"&gt;{Email}&lt;/a&gt; и сайт  &lt;a href=\"{Сайт}\"&gt;{Сайт}&lt;/a&gt;"
+
+#: cforms-help.php:804
+msgid "Here is another example for a more detailed <a href=\"%s\" %s>Admin HTML message</a>:"
+msgstr "Это другой пример более детального <a href=\"%s\" %s>HTML сообщения для администатора</a>:"
+
+#: cforms-help.php:797
+msgid "With this limited message you'd want to enable the option \"Include pre formatted form data table in HTML part\""
+msgstr "Для такого краткого письма рекомендуем включить опцию \"Добавить отформатированную форму в HTML письмо\""
+
+#: cforms-help.php:792
+msgid "a form has been submitted on June 13, 2007 @ 9:38 pm, via: / [IP 184.153.91.231]"
+msgstr "отправлено 13 июня 2007 @ 9:38 pm, со страницы: / [IP 184.153.91.231]"
+
+#: cforms-help.php:791 cforms-help.php:815 cforms-help.php:844
+msgid "Output:"
+msgstr "Результат:"
+
+#: cforms-help.php:786
+msgid "a form has been submitted on %s, via: %s [IP %s]"
+msgstr "отправлено %s, со страницы: %s [IP %s]"
+
+#: cforms-help.php:785 cforms-help.php:809 cforms-help.php:835
+msgid "HTML code:"
+msgstr "HTML код:"
+
+#: cforms-help.php:780
+msgid "Here is an example for a simple <a href=\"%s\" %s>Admin HTML message</a> <em>(you can copy and paste the below code or change to your liking)</em>:"
+msgstr "Пример простого <a href=\"%s\" %s>HTML сообщения для администатора</a> <em>(можете скопировать отсюда или написать свой текст)</em>:"
+
+#: cforms-help.php:773
+msgid "Results in the first field labeled %1$s to be addressed with %2$s. The second instance of %1$s can be addressed by %3$s, and so on..."
+msgstr "то для первого текстового поля с названием %1$s переменная будет такая: %2$s. Для 2-ого %1$s соответственно %3$s и так далее..."
+
+#: cforms-help.php:749
+msgid "Important!"
+msgstr "Важно!"
+
+#: cforms-help.php:739
+msgid "%1$s{Your Website}%2$s , %1$s{homepage}%2$s, or %1$s%3$s%2$s (assuming it is on the 4th position) respectively."
+msgstr "%1$s{Сайт}%2$s , %1$s{homepage}%2$s или %1$s%3$s%2$s (т.к. это поле в форме — четвертое по счету)."
+
+#: cforms-help.php:738
+msgid "The corresponding variables would be:"
+msgstr "Соответствующие переменные:"
+
+#: cforms-help.php:737
+msgid "Suppose this is the input field definition string: %sYour Website%s"
+msgstr "Предположим, что в форме в поле написано: %sСайт%s"
+
+#: cforms-help.php:731
+msgid "With <em>NN</em> being the position of the field on the form configuration page."
+msgstr "где <em>NN</em> — это порядковый номер поля в форме"
+
+#: cforms-help.php:727
+msgid "In case you're using the <u>custom input field NAMES &amp; ID's</u>, the reference is the <u>id:</u> of the field."
+msgstr "в случае, если в форме включено использование индивидуальных <u>ИМЕН и IDs</u>, то так указывается переменная в <u>id:</u> поля."
+
+#: cforms-help.php:726
+msgid "XYZ"
+msgstr "АБВ"
+
+#: cforms-help.php:723
+msgid "With <em>field label</em> being the <u>exact</u> field label as it is being tracked and sent in the admin email!"
+msgstr "<em>название поля</em> нужно указать точно (учитывая регистр)"
+
+#: cforms-help.php:722
+msgid "field label"
+msgstr "название поля"
+
+#: cforms-help.php:718
+msgid "Alternatively to the cforms predefined variables, you can also reference data of any of your form's input fields by one of the 3 ways described below."
+msgstr "Помимо предустановленных переменных можно также определять свои индивидуальные переменные, относящиеся к полям формы, вот 3 способа как это можно сделать."
+
+#: cforms-help.php:713
+msgid "Custom variables (referencing input fields):"
+msgstr "Индивидуальные переменные (относящиеся к полям):"
+
+#: cforms-help.php:704
+msgid "Inserts the WP post or page excerpt."
+msgstr "Вставляет цитату (excerpt) из поста/страницы."
+
+#: cforms-help.php:700
+msgid "Inserts the WP post or page title."
+msgstr "Вставляет название поста/страницы."
+
+#: cforms-help.php:696
+msgid "Inserts the Author's name (<em>Nickname</em>)."
+msgstr "Вставляет имя автора (<em>Ник</em>)."
+
+#: cforms-help.php:692
+msgid "Inserts the URL of the WP post/page."
+msgstr "вставляет URL поста/страницы."
+
+#: cforms-help.php:683
+msgid "A single %s (period) on a line inserts a blank line."
+msgstr "Одна точка %s вставляет пустую строку."
+
+#: cforms-help.php:682
+msgid "Special:"
+msgstr "Особенное:"
+
+#: cforms-help.php:678
+msgid "Inserts the Last Name of the currently logged-in user."
+msgstr "вставляет Фамилию залогиненного пользователя."
+
+#: cforms-help.php:674
+msgid "Inserts the First Name of the currently logged-in user."
+msgstr "вставляет Имя залогиненного пользователя."
+
+#: cforms-help.php:670
+msgid "Inserts the Email Address of the currently logged-in user."
+msgstr "вставляет email пользователя (если залогинен)"
+
+#: cforms-help.php:666
+msgid "Inserts the Name of the currently logged-in user."
+msgstr "вставляет Имя пользователя (если залогинен)"
+
+#: cforms-help.php:662
+msgid "Inserts the ID of the currently logged-in user."
+msgstr "вставляет ID пользователя (если залогинен)"
+
+#: cforms-help.php:658
+msgid "Inserts visitor IP address."
+msgstr "Вставляет IP адрес отправителя."
+
+#: cforms-help.php:654
+msgid "Inserts the time of form submission (per your general WP settings)."
+msgstr "Вставляет время отправки формы (в соотв. с настройками вашего WordPress)"
+
+#: cforms-help.php:650
+msgid "Inserts the date of form submission (per your general WP settings)."
+msgstr "Вставляет дату отправки формы (в соотв. с настройками вашего WordPress)"
+
+#: cforms-help.php:646
+msgid "Inserts the WP page the form was submitted from."
+msgstr "Вставляет адрес страницы, с которой отправлена форма."
+
+#: cforms-help.php:642
+msgid "Inserts the HTTP referer information (if available)."
+msgstr "вставляет HTTP рефер (если доступен)"
+
+#: cforms-help.php:638
+msgid "Inserts the ID of the post the form is shown in."
+msgstr "вставляет ID поста/страницы."
+
+#: cforms-help.php:634
+msgid "Inserts the form name (per your configuration)."
+msgstr "Вставляет название формы."
+
+#: cforms-help.php:630
+msgid "Inserts the Blog's name."
+msgstr "Вставляет название блога (сайта)."
+
+#: cforms-help.php:626
+msgid "Predefined variables:"
+msgstr "Предустановленные переменные:"
+
+#: cforms-help.php:626 cforms-help.php:713
+msgid "Case sensitive!"
+msgstr "Переменные чувствительны к регистру!"
+
+#: cforms-help.php:622
+msgid "Note that the variable names are case sensitive!"
+msgstr "Будьте внимательны, переменные чувствительны к регистру!"
+
+#: cforms-help.php:620
+msgid "<strong>Subjects and messages</strong> for emails both to the <a href=\"%s\" %s>form admin</a> as well as to the <a href=\"%s\" %s>visitor</a> (auto confirmation, CC:) support insertion of pre-defined variables and/or any of the form input fields."
+msgstr "Эти переменные можно использовать  в <strong>теме и теле писем</strong> как для <a href=\"%s\" %s>администратора</a>, так и для <a href=\"%s\" %s>отправителя</a> (автоматическое уведомление, CC: копия на email). Это предустановленные переменные, также вы можете использовать «свою» переменную для каждого поля."
+
+#: cforms-help.php:36 cforms-help.php:616
+msgid "Using variables in email subject and messages"
+msgstr "Использование различных переменных"
+
+#: lib_functions.php:166
+msgid "March"
+msgstr "Март"
+
+#: lib_functions.php:165
+msgid "February"
+msgstr "Февраль"
+
+#: lib_functions.php:164
+msgid "January"
+msgstr "Январь"
+
+#: lib_activate.php:64
+msgid "Email"
+msgstr "Email"
+
+#: lib_activate.php:63
+msgid "Your Name|Your Name"
+msgstr "Ваше имя|Ваше имя"
+
+#: cforms-help.php:609
+msgid "<strong>Custom error messages</strong> can be applied to any input field that can be flagged \"<strong>Required</strong>\", <strong>titles</strong> to any input field."
+msgstr "<strong>Индивидуальные сообщения об ошибках</strong> могут быть определены для любого поля (input), помеченного как  \"<strong>обязательное</strong>\", <br />а заголовки <strong>titles</strong> — для любого поля."
+
+#: cforms-help.php:600
+msgid "|err: your age is &lt;strong&gt;important&lt;/strong&gt; to us."
+msgstr "|err: нам &lt;strong&gt;важно&lt;/strong&gt; это знать."
+
+#: cforms-help.php:599
+msgid "Example 3:"
+msgstr "Пример 3:"
+
+#: cforms-help.php:596
+msgid "Your Name|title:Please provide your first and last name!|err:Please enter your full name."
+msgstr "Ваше имя|title:Напифите имя и фамилию!!|err: пожалуйста, напишите имя."
+
+#: cforms-help.php:595
+msgid "Example 2:"
+msgstr "Пример 2:"
+
+#: cforms-help.php:592
+msgid "Your Name|title:Only alphabetic characters allowed!"
+msgstr "Ваше имя|title:Только буквы!"
+
+#: cforms-help.php:591
+msgid "Example 1:"
+msgstr "Пример 1:"
+
+#: cforms-help.php:588
+msgid "field name %1$s your title here %3$s %2$s your error message %3$s"
+msgstr "название поля %s заголовок %3$s %2$s индивидуальное сообщение об ошибке  %3$s"
+
+#: cforms-help.php:587
+msgid "Extended entry format for the Field Name"
+msgstr "Расширенный формат для поля"
+
+#: cforms-help.php:583
+msgid "Please note the order of these special attributes, first %s (if applicable), then %s."
+msgstr "Порядок важен! Сначала  %s (если необходимо), затем %s."
+
+#: cforms-help.php:582
+msgid "If you like to add custom error messages (next to your generic <a href=\"%s\" %s>success</a> and <a href=\"%s\" %s>error</a> messages) for your input fields, simply append a %s to a given <em>definition string/field name</em>. HTML is supported."
+msgstr "Если вы хотите добавить индивидуальное сообщение об ошибке при заполнении поля (помимо общих сообщений об <a href=\"%s\" %s>успешной отправке</a> и <a href=\"%s\" %s>ошибках при заполнении</a>),  просто добавьте %s в нужное <em>поле</em>. HTML поддерживается."
+
+#: cforms-help.php:581
+msgid "On top of their labels, input fields can have titles, too. Simply append a %s to a given field configuration string."
+msgstr "Для каждого поля можно прописать индивидуальные заголовки (title). Для этого добавьте %s после названия поля."
+
+#: cforms-help.php:571
+msgid "More information can be found <a href=\"%s\">here</a>, a great regexp repository <a href=\"%s\">here</a>."
+msgstr "Больше информации по регулярным выражениям можно найти <a href=\"%s\">здесь</a>, очень большая коллекция регулярных выражений есть <a href=\"%s\">тут</a>."
+
+#: cforms-help.php:566
+msgid "...a string that has lowercase letters \"a\" through \"d\""
+msgstr "...в строке только англ. буквы нижнего регистра от  \"a\" до \"d\""
+
+#: cforms-help.php:561
+msgid "...same, but there's at least one b (\"ab\", \"abbb\", etc.);"
+msgstr "...то же самое,только тут должна быть по крайней мере одна  b (\"ab\", \"abbb\", и т.д.);"
+
+#: cforms-help.php:556
+msgid "...matches a string that has an \"a\" followed by zero or more \"b's\" (\"a\", \"ab\", \"abbb\", etc.);"
+msgstr "...строка начинается с \"a\" за ней могут быть несколько букв \"b\" (\"a\", \"ab\", \"abbb\", и т.п.);"
+
+#: cforms-help.php:551
+msgid "define the start and the end of the input"
+msgstr "определяют начало и конец поля"
+
+#: cforms-help.php:551
+msgid "and"
+msgstr "и"
+
+#: cforms-help.php:546
+msgid "Ensure that the input field in question is tagged '<strong>Required</strong>'!"
+msgstr "Убедитесь в том, что поле помечено как <strong>обязательное</strong>!"
+
+#: cforms-help.php:541
+msgid "GENERAL:"
+msgstr "ОБЩИЕ:"
+
+#: cforms-help.php:536
+msgid "<strong>If you need to compare two input fields (e.g. email verification):</strong> simply use the regexp field (see special example above, to point to the <u>HTML element ID</u> of the field you want to compare the current one to. To find the <u>HTML element ID</u> you would have to look into the html source code of the form (e.g."
+msgstr "<strong>Если нужно сравнить 2 поля (например «повторите email»):</strong> просто используйте регулярные выражения (см. специальный пример выше, там используется <u>HTML элемент ID</u> того поля, с которым нужно сравнить). Чтобы узнать <u>HTML элемент ID</u>, посмотрите html код страницы с формой (в нашем примере это "
+
+#: cforms-help.php:531
+msgid "please repeat email"
+msgstr "повторите email"
+
+#: cforms-help.php:530
+msgid "Special Example:<br />comparing two input fields"
+msgstr "Специальный пример:<br />сравнение 2-х полей"
+
+#: cforms-help.php:527
+msgid "phone"
+msgstr "телефон"
+
+#: cforms-help.php:526
+msgid "Example:<br />US phone #"
+msgstr "Пример:<br />US phone #"
+
+#: cforms-help.php:523
+msgid "zip code"
+msgstr "zip код"
+
+#: cforms-help.php:522
+msgid "Example:<br />US zip code"
+msgstr "Пример:<br />US zip code"
+
+#: cforms-help.php:519
+msgid "field name %1$s default value %1$s regular expression"
+msgstr "название поля %1$s формат %1$s регулярные выражения"
+
+#: cforms-help.php:514
+msgid "A regular expression (regex or regexp for short) is a special text string for describing a search pattern, according to certain syntax rules. Many programming languages support regular expressions for string manipulation, you can use them here to validate user input. Single/Multi line input fields:"
+msgstr "Регулярные выражения — это специальные паттерны для проверки правильности введенных данных. Для тех, кто немного знаком с программированием, не составит труда разобраться в этом."
+
+#: cforms-help.php:500
+msgid "If there is no closing <strong>End Fieldset</strong> element, the plugin assumes that it needs to close the set just before the submit button"
+msgstr "Если до конца формы нет поля <strong>конец группы (fieldset)</strong>, то в группу возмутся все поля формы, расположенные ниже."
+
+#: cforms-help.php:495
+msgid "<strong>End Fieldset</strong> <u>can</u> be used, but it works without just as well."
+msgstr "<strong>конец группы (fieldset)</strong> <u>можно</u> использовать, если например внизу формы есть поле, которое не должно войти в группу, тогда перед ним можно поставить <strong>конец группы  (fieldset)</strong>."
+
+#: cforms-help.php:490
+msgid "Fieldsets do not need to explicitly be closed, a <strong>New Fieldset</strong> element will automatically close the existing (if there is one to close) and reopen a new one."
+msgstr "Группы  (fieldsets) не требуют обязательного закрытия, этот элемент автоматически возьмет в группу элементы формы. Если ниже в форме есть еще один <strong>новая группа (fieldset)</strong>, то первый Fieldset закроется перед ним."
+
+#: cforms-help.php:485
+msgid "Fieldsets can begin anywhere, simply add a <strong>New Fieldset</strong> field between or before your form elements."
+msgstr "Группы  (fieldsets) могут начинаться откуда угодно, просто вставьте новое поле <strong>новая группа  (fieldset)</strong> перед или после нужного поля в форме."
+
+#: cforms-help.php:481 cforms-options.php:47 lib_activate.php:62
+msgid "My Fieldset"
+msgstr "Написать письмо"
+
+#: cforms-help.php:477
+msgid "fieldset name"
+msgstr "название группы (fieldset)"
+
+#: cforms-help.php:471
+msgid "Fieldsets are definitely part of good form design, they are form elements that are used to create individual sections of content within a given form."
+msgstr "Группы  (fieldsets) дают возможность визульно и логически организовать поля формы. Элемент Fieldset предназначен для группирования элементов формы. Такая группировка облегчает работу с формами, содержащих большое количество полей. "
+
+#: cforms-help.php:535 cforms-help.php:763
+msgid "Important:"
+msgstr "Важно:"
+
+#: cforms-help.php:460
+msgid "Please double-check the <a href=\"%s\" %s>Global Settings</a> for proper configuration of the <code>File Upload</code> functionality (allowed extensions, file size etc.)."
+msgstr "Не забудьте перепроверить <a href=\"%s\" %s>общие настройки</a> для <code>загрузки файлов</code> (разрешенные расширения файлов, максимальный размер и т.п.)."
+
+#: cforms-help.php:456
+msgid "Please select a file"
+msgstr "Выберите файл"
+
+#: cforms-help.php:452
+msgid "form label"
+msgstr "название поля"
+
+#: cforms-help.php:446
+msgid "Attachments / File Upload Box"
+msgstr "Вложения/загрузка файла"
+
+#: cforms-help.php:435
+msgid "<strong>PLEASE NOTE</strong> that by default the captcha and visitor verification (Q&amp;A) field are <strong>not</strong> shown for logged in users! This can be changed under Global Settings."
+msgstr "<strong>ЗАМЕТЬТЕ</strong>, что по умолчанию captcha (картинка-защита от спама) и Q&A (вопрос-ответ)  <strong>НЕ</strong> показываются для вошедших (залогиненных) пользователей! Это может быть изменено в общих настройках."
+
+#: cforms-help.php:430
+msgid "It makes sense to encapsulate this field inside a FIELDSET, to do that simply add a <code>New Fieldset</code> field before this one."
+msgstr "Имеет смысл включить это поле в отдельную группу( fieldset) чтобы было понятно, что это защита от спама — просто добавьте при создании формы поле <code>новая группа (fieldset)</code> перед этим полем."
+
+#: cforms-help.php:425
+msgid "No <code>field name</code> required, the field has no configurable label per se, as it is determined at run-time from the list of <strong>Question &amp; Answers</strong> provided <a href=\"%s\" %s>here</a>."
+msgstr "Тут не требуется <code>название поля</code>, т.к. список <strong>вопросов и ответов</strong> берется <a href=\"%s\" %s>отсюда</a>."
+
+#: cforms-help.php:417 cforms-help.php:421
+msgid "--"
+msgstr "--"
+
+#: cforms-help.php:400
+msgid "Hidden fields can contain fixed/preset values or <strong>{variables}</strong> which reference custom fields of posts or pages."
+msgstr "Скрытые поля могут содержать  фиксированные/предустановленные значения или <strong>{переменные}</strong>,<br /> которые содержатся в  произвольных полях (custom fields) записи (Post) или страницы (Page)."
+
+#: cforms-help.php:396
+msgid "post-data-meta"
+msgstr "мета-данные записи"
+
+#: cforms-help.php:392
+msgid "extra-data"
+msgstr "дополнительные данные"
+
+#: cforms-help.php:388
+msgid "field name %1$s default value"
+msgstr "название поля %1$s формат"
+
+#: cforms-help.php:383
+msgid "Hidden input fields"
+msgstr "Скрытые поля"
+
+#: cforms-help.php:373
+msgid "Adding the above field to a form, disables the form's specific admin email address setting."
+msgstr "Если вы добавляете такое поле в форму, то письма будут отсылаться на указанные адреса, а не на email администратора, указанный в настройках cforms."
+
+#: cforms-help.php:369
+msgid "Send to#Sales|sales1@mail.com, sales2@mail.com, sales3@mail.com#Support|admin@mail.com#HR|hr1@mail.scom, hr2@mail.com"
+msgstr "Отправить#Отдел продаж|sales1@mail.com, sales2@mail.com, sales3@mail.com#Служба поддержки|admin@mail.com#Кадровая служба|hr1@mail.scom, hr2@mail.com"
+
+#: cforms-help.php:365
+msgid "Send to#Joe|joe@mail.com#Pete|pete@mail.com#Hillary|hillary@mail.com"
+msgstr "Отправить#Джо|joe@mail.com#Петр|pete@mail.com#Хиллари|hillary@mail.com"
+
+#: cforms-help.php:361
+msgid "field name %1$s Name1 | email address(es) %1$s Name2 | email address(es)%1$s Name3..."
+msgstr "название поля %1$s Имя1 | email адрес(а) %1$s Имя2 | email адрес(а) %1$s Имя3..."
+
+#: cforms-help.php:353
+msgid "Multiple form mail recipients"
+msgstr "Несколько получателей"
+
+#: cforms-help.php:342
+msgid "Please also see <em>check boxes</em> above."
+msgstr "Смотрите также <em>флажки (check boxes)</em>."
+
+#: cforms-help.php:337
+msgid "If the visitor chooses to be CC'ed, <strong>no</strong> additional auto confirmation email (<a href=\"%s\" %s>if configured</a>) is sent out!"
+msgstr "Если отправитель ставит галочку в «CC: копия на email», то ему НЕ высылается автоматическое уведомление (см. <a href=\"%s\" %s>в настройках</a>)."
+
+#: cforms-help.php:333
+msgid "#please cc: me"
+msgstr "# выслать мне копию"
+
+#: cforms-help.php:323
+msgid "CC: option for visitors"
+msgstr "СС: копия на email"
+
+#: cforms-help.php:312
+msgid "None of the check boxes within a group can be made \"Required\"."
+msgstr "Если флажки в группе, то ни один из них нельзя пометить как \"обязательный\"."
+
+#: cforms-help.php:307
+msgid "If no explicit <strong>value</strong> (text after the pipe symbol '%1$s') is specified, the provided check box label is both label &amp; submitted value."
+msgstr "Если не указано <strong>значение</strong> (текст после символа  '%1$s'), то название флажка является одновременно и его значением."
+
+#: cforms-help.php:302
+msgid "Similar to <strong>multi-select boxes</strong> (see above), <strong>Check box groups</strong> allow you to deploy several check boxes (with their labels and corresponding values) that form one logical field. The result submitted via the form email is a single line including all checked options."
+msgstr "Так же как и в случае с <strong>множественным выбором (multi-select)</strong> (см. выше), можно объединить несколько флажков (с названиями флажков  и их значениями) в одну логическую группу. Отмеченные отправителем флажки из одной группы будут сгруппированы в одну строку в отправленном письме."
+
+#: cforms-help.php:297
+msgid "Two # (<code>##</code>) in a row will force a new line! This helps to better structure your check box group."
+msgstr "Два символа # подряд  (<code>##</code>) делают перевод на новую строку! Это поможет сгрупировать флажки так, как вам нужно."
+
+#: cforms-help.php:293
+msgid "Select Color#green|00ff00 #red|ff0000 #purple|8726ac #yellow|fff90f"
+msgstr "Выберите цвет#зеленый|00ff00 #красный|ff0000 #пурпурный|8726ac #желтый|fff90f"
+
+#: cforms-help.php:289
+msgid "field name %1$s chk box1 label%2$schk box1 value %1$s chk box2 label %3$s chk box3..."
+msgstr "название поля %1$s название флажка1l%2$s значение1 %1$s название флажка2 %3$s название флажка3..."
+
+#: cforms-help.php:272
+msgid "Check boxes can be flagged \"<strong>Required</strong>\" to support special use cases, e.g.: when you require the visitor to confirm that he/she has read term &amp; conditions, before submitting the form."
+msgstr "Флажки могут быть помечены как \"<strong>обязательные</strong>\", например если перед отправкой формы отправитель должен согласится с правилами и условиями."
+
+#: cforms-help.php:267
+msgid "If <strong>both</strong> left and right labels are provided, only the <strong>right one</strong> will be considered."
+msgstr "Если <strong>с обеих</strong> сторон от # вписаны названия, то только <strong>правое</strong> название будет взято в качестве имени поля."
+
+#: cforms-help.php:262
+msgid "You can freely choose on which side of the check box the label appears (e.g. <code>#label-right-only</code>)."
+msgstr "Можно указать с которой стороны флажка будет название поля (например <code>#название поля справа</code>)."
+
+#: cforms-help.php:258
+msgid "#please check if you'd like more information"
+msgstr "#отметьте, если хотите получать новости"
+
+#: cforms-help.php:254 cforms-help.php:329
+msgid "field name <u>left</u> %s field name <u>right</u>"
+msgstr "название поля <u>слева</u> %s название поля <u>справа</u>"
+
+#: cforms-help.php:237
+msgid "Examples for specific values could be the matching color codes: e.g. <code>red|#ff0000</code>"
+msgstr "Примерами конкретных значений могут быть соответствия кодов цветов: например, <code>red|#ff0000</code>"
+
+#: cforms-help.php:232
+msgid "If <code>value1,2,..</code> are not specified, the values delivered in the email default to <code>option1,2,...</code>."
+msgstr "Если <code>значение1,2,..</code> не указаны, то на email быдет выслано <code>вариант1,2,...</code>."
+
+#: cforms-help.php:227
+msgid "Multi select fields can be set to <strong>Required</strong>. If so and unless at least one option is selected the form won't validate."
+msgstr "Множественный выбор можно пометить как <strong>обязательный</strong>. Если хотя бы одно значение не выбрано, поле считается незаполеннным (невалидное значение)."
+
+#: cforms-help.php:223
+msgid "&lt;strong&gt;Select&lt;/strong&gt;#Today#Tomorrow#This Week#Next Month#Never"
+msgstr "&lt;strong&gt;Выберите&lt;/strong&gt;#сегодня#завтра#на этой неделе#в след. месяце#никогда"
+
+#: cforms-help.php:219
+msgid "Pick#red#blue#green#yellow#orange"
+msgstr "Выберите#красный#голубой#зеленый#желтый#оранжевый"
+
+#: cforms-help.php:209
+msgid "Multi select boxes"
+msgstr "Множественный выбор (Multi select)"
+
+#: cforms-help.php:199
+msgid "<strong>Radio buttons marked \"Required\":</strong> You can choose to not preselect a radio button upon form load, yet make a user selection mandatory for the form to validate."
+msgstr "<strong>Переключатели (radio) отмеченные как \"обязательные\":</strong>  Вы можете делать переключатель (radio) обязательным"
+
+#: cforms-help.php:194
+msgid "<strong>Select box marked \"Required\":</strong> Using a minus symbol %1$s for the value (after %2$s), will mark an option as invalid! Example:<br /><code>Your age#Please pick your age group|-#12 to 18|kiddo#19 to 30|young#31 to 45#45+ |older</code>. <br />\"Please pick...\" is shown but not considered a valid value."
+msgstr "<strong>Выпадающий список, помеченный как \"обязательный\":</strong> Использование символа минус %1$s для значения (после %2$s) пометит выбор как \"невалидный\"! Пример:<br /><code>Ваш возраст#Выберите свою возрастную группу|-#от 12 до 18|ребенок#от 19 до 30|взрослый#от 31 до 45#45+ |пожилой</code>. <br />«Выберите свою возрастную группу» будет показано, но этот выбор не будет валидным. Чтобы отправить письмо, нужно будет выбрать возраст из списка."
+
+#: cforms-help.php:189
+msgid "Is no <strong>value</strong> explicitly given, then the shown option text is the value sent in the email."
+msgstr "Если не указано <strong>значение</strong> для варианта, то на email вышлется название варианта."
+
+#: cforms-help.php:184
+msgid "The <strong>option</strong> parameter determines the text displayed to the visitor, <strong>value</strong> what is being sent in the email."
+msgstr "<strong>вариант</strong> отображается в форме, а <strong>значение</strong> не видно при заполнении формы, это то, что будет выслано в email'е."
+
+#: cforms-help.php:179
+msgid "Omitting the <code>field name</code> will result in not showing a label to the left of the field."
+msgstr "Если не указывать <code>название поля</code>, то заголовка у выпадающего списка не будет."
+
+#: cforms-help.php:175 cforms-help.php:600
+msgid "Your age#12-18|kiddo#19 to 30|young#31 to 45#45+ |older"
+msgstr "Ваш возраст#12-18|ребенок#от 19 до 30|подросток#от 31 до 45#45+ |пожилой"
+
+#: cforms-help.php:171 cforms-help.php:215
+msgid "field name %1$s option1 %2$s value1 %1$s option2 %2$s value2 %1$s option3..."
+msgstr "название поля %1$s вариант1 %2$s значение1 %1$s вариант2 %2$s значение2 %1$s вариант3..."
+
+#: cforms-help.php:165
+msgid "Select boxes &amp; radio buttons"
+msgstr "Выпадающий список (select) &amp; переключатель (radio)"
+
+#: cforms-help.php:154
+msgid "You can of course omit the <em>default value</em> as in Example 2."
+msgstr "Можно не указывать <em>значение по умолчанию</em>, как в примере 2."
+
+#: cforms-help.php:150
+msgid "We need your email address for confirmation.\"%sYour EMail"
+msgstr "Ваш email нужен для подтверждения заказа\"%s EMail"
+
+#: cforms-help.php:146
+msgid "Your &lt;u&gt;Full&lt;/u&gt; Name"
+msgstr "Ваше &lt;u&gt;полное&lt;/u&gt; имя"
+
+#: cforms-help.php:142
+msgid "Reference"
+msgstr "Ссылка"
+
+#: cforms-help.php:132
+msgid "Single, Password &amp; Multi line input fields"
+msgstr "Поле ввода (input), текстовое поле (textarea) и поле «пароль»"
+
+#: cforms-help.php:123
+msgid "The example above will set a <em>default value</em> of \"%s\" so users know the expected format. The <strong>regexp</strong> at the end ensures that only this format is accepted. <strong>NOTE:</strong> You also need to <a href=\"%s\" %s>configure the date picker options</a> to match the date format (\"%s\")!"
+msgstr "Этот пример установит формат даты  — \"%s\". Используйте <strong>регул. выражения</strong> если нужно чтобы дата была в конкретном формате. <strong>ВНИМАНИЕ:</strong> Также нужно <a href=\"%s\" %s>настроить дату (javascript календарь)</a> в формате (\"%s\")!"
+
+#: cforms-help.php:116
+msgid "Arrival Date"
+msgstr "Дата прибытия"
+
+#: cforms-help.php:111 cforms-help.php:138
+msgid "field name %1$s default value %1$s <a href=\"%2$s\">regular expression</a>"
+msgstr "название поля %1$s значение по умолчанию %1$s <a href=\"%2$s\">регулярное выражение</a>"
+
+#: cforms-help.php:106
+msgid "Javascript Date Picker"
+msgstr "Дата (javascript календарь)"
+
+#: cforms-help.php:98
+msgid "If you specify a <code>css class</code>, you also need to define it in your current form theme file, <a href=\"%s\">here</a>."
+msgstr "Если вы указываете свой <code>css класс</code>, то не забудьте вписать его в <a href=\"%s\">используемый стиль</a> для формы."
+
+#: cforms-help.php:95
+msgid "The above expression applies the custom class \"<code>mytextclass</code>\" <strong>AND</strong> the specific styles \"<code>font-size:9x; font-weight:bold;</code>\" to the paragraph."
+msgstr "В примере выше указан css класс  \"<code>mytextclass</code>\" и стиль для шрифта \"<code>font-size:9x; font-weight:bold;</code>\"."
+
+#: cforms-help.php:92
+msgid "HTML: the <code>text paragraph</code> supports HTML. If you need actual &lt;, &gt; in your text please use the proper HTML entity."
+msgstr "HTML: здесь есть поддержка  HTML. Если вам нужны просто скобки  &lt;, &gt;, то вставляйте их как соотв. HTML код."
+
+#: cforms-help.php:89
+msgid "Check %s here %s for more info. %s"
+msgstr "Посмотрите %s здесь%s доп. информацию. %s"
+
+#: cforms-help.php:86
+msgid "Please make sure..."
+msgstr "Пожалуйста, проверьте…"
+
+#: cforms-help.php:86 cforms-help.php:89 cforms-help.php:114
+#: cforms-help.php:141 cforms-help.php:145 cforms-help.php:149
+#: cforms-help.php:174 cforms-help.php:218 cforms-help.php:222
+#: cforms-help.php:257 cforms-help.php:292 cforms-help.php:332
+#: cforms-help.php:364 cforms-help.php:391 cforms-help.php:395
+#: cforms-help.php:420 cforms-help.php:455 cforms-help.php:480
+#: cforms-help.php:736
+msgid "Example:"
+msgstr "Пример:"
+
+#: cforms-help.php:83
+msgid "text paragraph %1$s css class %1$s optional style"
+msgstr "текст %1$s css класс %1$s свой стиль"
+
+#: cforms-help.php:82 cforms-help.php:110 cforms-help.php:137
+#: cforms-help.php:170 cforms-help.php:214 cforms-help.php:253
+#: cforms-help.php:288 cforms-help.php:328 cforms-help.php:360
+#: cforms-help.php:387 cforms-help.php:416 cforms-help.php:451
+#: cforms-help.php:476 cforms-help.php:518 cforms-help.php:587
+msgid "Format:"
+msgstr "Формат:"
+
+#: cforms-help.php:82 cforms-help.php:110 cforms-help.php:137
+#: cforms-help.php:170 cforms-help.php:214 cforms-help.php:253
+#: cforms-help.php:288 cforms-help.php:328 cforms-help.php:360
+#: cforms-help.php:387 cforms-help.php:416 cforms-help.php:451
+#: cforms-help.php:476 cforms-help.php:518
+msgid "Entry format for Field Name"
+msgstr "Формат поля"
+
+#: cforms-help.php:77
+msgid "Text only elements (no input)"
+msgstr "Просто текст (не input)"
+
+#: cforms-help.php:76 cforms-help.php:105 cforms-help.php:131
+#: cforms-help.php:164 cforms-help.php:208 cforms-help.php:247
+#: cforms-help.php:282 cforms-help.php:322 cforms-help.php:352
+#: cforms-help.php:382 cforms-help.php:410 cforms-help.php:445
+#: cforms-help.php:467 cforms-help.php:510
+msgid "form<br />field"
+msgstr "поле"
+
+#: cforms-help.php:283
+msgid "Check box groups"
+msgstr "Группы флажков (check box groups)"
+
+#: cforms-help.php:248
+msgid "Check boxes"
+msgstr "Флажки (check boxes)"
+
+#: cforms-help.php:194 cforms-help.php:199 cforms-help.php:604
+#: cforms-help.php:797 cforms-help.php:823 cforms-options.php:642
+#: cforms-options.php:816
+msgid "Note:"
+msgstr "На заметку:"
+
+#: cforms-help.php:66
+msgid "A more elegant and safer way is to use the <strong>TinyMCE Button</strong> (double check if <a href=\"%3s\" %s>Button Support</a> is enabled!)."
+msgstr "Или с помощью кнопки в виз. редакторе — так проще и удобнее (<a href=\"%3s\" %s>проверьте</a>, не отключили ли вы эту возможность)"
+
+#: cforms-help.php:65
+msgid "If you like to do it the 'code' way, make sure to use %1s to include them in your <em>Pages/Posts</em>. With %2s being <u>your form NAME</u>."
+msgstr "Вы можете вставлять формы с помощью тега  %1s в<em> посты и страницы</em> , где  %2s это <u>название формы</u>."
+
+#: cforms-help.php:57
+msgid "<a href=\"%s\" %s>Add the default form</a> to a post or page."
+msgstr "<a href=\"%s\" %s>Добавьте форму по умолчанию</a> в пост или на страницу."
+
+#: cforms-help.php:56
+msgid "Decide if you want the visitor to receive an <a href=\"%s\" %s>auto confirmation message</a> upon form submission."
+msgstr "Решите, нужно ли <a href=\"%s\" %s>автоматическое письмо-уведомление</a> после отправки формы."
+
+#: cforms-help.php:55
+msgid "Check if the <a href=\"%s\" %s>email admin</a> for your form is configured correctly."
+msgstr "Проверьте, правильно ли указан <a href=\"%s\" %s>email администратора</a>."
+
+#: cforms-help.php:52
+msgid "Want to include SPAM protection? Choose between <a href=\"%s\" %s>Q&amp;A</a>, <a href=\"%s\" %s>captcha</a> add an input field accordingly and configure <a href=\"%s\" %s>here</a>."
+msgstr "Нужна защита от спама? Выберите один из способов: <a href=\"%s\" %s>«вопрос-ответ»</a> или <a href=\"%s\" %s>captcha</a> (добавьте новое поле  в форму). Настройте  также и <a href=\"%s\" %s>здесь</a>."
+
+#: cforms-help.php:51
+msgid "Check the flags for each field (check boxes to the right)."
+msgstr "Проверьте какие флажки настроек отмечены (справа от поля)."
+
+#: cforms-help.php:50
+msgid "Check the field labels (field names), if needed make your adjustments"
+msgstr "Проверьте названия полей, внесите коррективы при необходимости"
+
+#: cforms-help.php:49
+msgid "Verify that it contains all the fields you need, are they in the right order"
+msgstr "Проверьте, содержит ли форма все поля которые вам нужны, в правильном ли порядке он расположены"
+
+#: cforms-help.php:47
+msgid "First take a look at the <a href=\"%s\">default form</a>"
+msgstr "Для начала взгляните на <a href=\"%s\">форму по умолчанию</a>"
+
+#: cforms-help.php:45
+msgid "Admittedly, <strong>cforms</strong> is not the easiest form mailer plugin but it may be the most flexible. The below outline should help you get started with the default form."
+msgstr "Итак, <strong> cforms </strong> —  это не просто плагин обратной связи, это очень гибкий конструктор форм. Информация ниже поможет вам немного разобраться с настройками на примере формы по умолчанию."
+
+#: cforms-help.php:37 cforms-help.php:855 cforms-options.php:923
+msgid "Multi-part forms"
+msgstr "Мульти-формы"
+
+#: cforms-help.php:35 cforms-help.php:578
+msgid "Custom error messages &amp; input field titles"
+msgstr "Индивидуальные сообщения и заголовки (title) полей"
+
+#: cforms-help.php:511
+msgid "Using regular expressions with form fields"
+msgstr "Регулярные выражения в полях формы"
+
+#: cforms-help.php:468
+msgid "Fieldsets"
+msgstr "Группы (fieldsets)"
+
+#: cforms-help.php:34 cforms-help.php:70
+msgid "Configuring form input fields"
+msgstr "Поля формы"
+
+#: cforms-help.php:33 cforms-help.php:62
+msgid "Inserting a form"
+msgstr "Вставка формы"
+
+#: cforms-help.php:32 cforms-help.php:42
+msgid "Basic steps, a small guide"
+msgstr "Первое знакомство"
+
+#: cforms-help.php:30
+msgid "Table of Contents"
+msgstr "Содержание"
+
+#: cforms-help.php:27
+msgid "Here you'll find plenty of examples and documentation that should help you configure <strong>cforms</strong>."
+msgstr "Здесь вы найдете примеры использования форм и документацию, которая поможет настроить формы <strong>cforms</strong>."
+
+#: cforms-help.php:24
+msgid "Help"
+msgstr "Помощь  (Учебник)"
+
+#: cforms-global-settings.php:324
+msgid "DELETE *ALL* CFORMS DATA"
+msgstr "УДАЛИТЬ"
+
+#: cforms-global-settings.php:324
+msgid "Are you sure you want to do this?!"
+msgstr "Уверены?"
+
+#: cforms-global-settings.php:323
+msgid "This is irrevocable!"
+msgstr "Это действие нельзя будет отменить!"
+
+#: cforms-global-settings.php:322
+msgid "Generally, simple deactivation of cforms does <strong>not</strong> erase any of its data. If you like to quit using cforms for good, please erase all data before deactivating the plugin."
+msgstr "Деактивация плагина <strong>не удалит</strong> все данные и настройки для этого плагина, поэтому сначала удалите все данные, а потом деактивируйте плагин."
+
+#: cforms-global-settings.php:112 cforms-global-settings.php:320
+msgid "Warning!"
+msgstr "Предупреждение!"
+
+#: cforms-global-settings.php:317
+msgid "Uninstalling / Removing cforms"
+msgstr "Удаление данных и настроек"
+
+#: cforms-global-settings.php:295
+msgid "<strong>Questions &amp; Answers</strong><br />format: Q=A"
+msgstr "<strong>Вопросы &amp; Ответы</strong><br />вводить в формате: Q=A"
+
+#: cforms-global-settings.php:286
+msgid "<strong>Failure message</strong><br />(for a wrong answer)"
+msgstr "<strong>Сообщение об ошибке</strong><br />(при неправильном ответе)"
+
+#: cforms-global-settings.php:282
+msgid "The below error/failure message is also used for <strong>captcha</strong> verification!"
+msgstr "Эти сообщения об ошибках также используются при защите от спама с помощью картинки <strong>captcha</strong>!"
+
+#: cforms-global-settings.php:274
+msgid "Force Q&amp;A display for logged in users"
+msgstr "включить Q&A (вопрос-ответ) для залогиненных пользователей"
+
+#: cforms-global-settings.php:269
+msgid "Getting a lot of <strong>SPAM</strong>? Use these Q&amp;A's to counteract spam and ensure it's a human submitting the form. To use in your form, add the corresponding input field %s preferably in its own FIELDSET!"
+msgstr "Достал <strong>СПАМ</strong>? Включите защиту от спама «вопрос-ответ»: при создании формы выберите типа поля %s!"
+
+#: cforms-global-settings.php:265
+msgid "Visitor Verification Settings (Q&amp;A)"
+msgstr "Настройка защиты от спама  (вопрос-ответ)"
+
+#: cforms-global-settings.php:273
+msgid "Force display"
+msgstr "Включить"
+
+#: cforms-global-settings.php:257
+msgid "&amp; Code editor buttons"
+msgstr " и в режиме «код»"
+
+#: cforms-global-settings.php:257
+msgid "Enable TinyMCE"
+msgstr "Включить виз. редактор  TinyMCE"
+
+#: cforms-global-settings.php:253
+msgid "If you would like to use editor buttons to insert your cforms please enable them below."
+msgstr "Здесь можно включить/выключить кнопку вставки формы в редакторе."
+
+#: cforms-global-settings.php:249
+msgid "WP Editor Button support"
+msgstr "Кнопка cforms в редакторе"
+
+#: cforms-global-settings.php:237
+msgid "Error during upload"
+msgstr "Ошибка загрузки"
+
+#: cforms-global-settings.php:230
+msgid "File size too big"
+msgstr "Слишком большой размер файла"
+
+#: cforms-global-settings.php:223
+msgid "File is empty"
+msgstr "пустой файл"
+
+#: cforms-global-settings.php:216
+msgid "Generic (unknown) error"
+msgstr "Неизвестная ошибка"
+
+#: cforms-global-settings.php:209
+msgid "File type not allowed"
+msgstr "Запрет на загрузку типа файла"
+
+#: cforms-global-settings.php:204
+msgid "Below, error messages shown in case something goes awry:"
+msgstr "Сообщения об ошибках:"
+
+#: cforms-global-settings.php:203
+msgid "Also, note that by adding a <em>File Upload Box</em> to your form, the Ajax (if enabled) submission method will (automatically) <strong>gracefully degrade</strong> to the standard method, due to general HTML limitations."
+msgstr "Учтите, что добавив поле <em>Загрузка файла</em> в форму, Ajax (если включен) может мешать нормальной работе формы из-за некоторых ограничений в  HTML."
+
+#: cforms-global-settings.php:199
+msgid "Form specific settings (directory path etc.) have been moved to <a href=\"%s\" %s>here</a>."
+msgstr "Другие настройки (папка для хранения загруженные файлов и т.п.) <a href=\"%s\" %s>ЗДЕСЬ</a>."
+
+#: cforms-global-settings.php:198 cforms-options.php:506
+msgid "Configure and double-check these settings in case you are adding a \"<code>File Upload Box</code>\" to your form (also see the <a href=\"%s\" %s>Help!</a> for further information)."
+msgstr "Настройте и проверьте эти настройки, если в ваших формах есть поле \"<code>загрузка файла</code>\" (также смотрите раздел <a href=\"%s\" %s>Помощь (Учебник)</a>, если нужна более подробная информация)."
+
+#: cforms-global-settings.php:193
+msgid "Global File Upload Settings"
+msgstr "Настройки отправки файлов через формы"
+
+#: cforms-global-settings.php:183
+msgid "Separate lines in email %sbody%s with LF only (CR suppressed)"
+msgstr "Разделять строки в  %sтеле%s письма используя только LF (подавление CR)"
+
+#: cforms-global-settings.php:179
+msgid "cforms produces RFC compliant emails with CRLF (carriage-return/line-feed) as line separators. If your mail server adds additional line breaks to the email, you may want to try and turn on the below option."
+msgstr "cforms в соответствие со стандартами RFC (request for comments - стандарты протоколов, в данном случае SMTP и POP3 т.п.) формирует письма с использованием символа CRLF (возврат каретки, перевод строки, т.е. последовательность символов) в качестве разделителей строк. Если ваш почтовый сервер поддерживает перевод строки в теле писем, то вы можете попробовать включить эту функцию."
+
+#: cforms-global-settings.php:174
+msgid "Mail Server Settings"
+msgstr "Настройка почтового сервера"
+
+#: lib_functions.php:187
+msgid "Choose Date"
+msgstr "Выбрать дату"
+
+#: lib_functions.php:186
+msgid "Close"
+msgstr "Закрыть"
+
+#: lib_functions.php:185
+msgid "Next Month"
+msgstr "Следующий месяц"
+
+#: lib_functions.php:184
+msgid "Previous Month"
+msgstr "Предыдущий месяц"
+
+#: cforms-global-settings.php:161
+msgid "See supported date formats &raquo;"
+msgstr "Поддерживаемые форматы даты &raquo;"
+
+#: cforms-global-settings.php:160
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: cforms-global-settings.php:157
+msgid "Note that turning on this feature will result in loading an additional Javascript file to support the date picker."
+msgstr "Внимание: включение этой опции приведет к загрузке дополнительных Javascript-файлов в header вашей Темы."
+
+#: cforms-global-settings.php:155
+msgid "Enable Javascript date picker"
+msgstr "Активировать"
+
+#: cforms-global-settings.php:150
+msgid "If you'd like to offer a Javascript based date picker for more convenient date entry, enable this feature here. This will add a <strong>new input field</strong> for you to add to your form. See <a href=\"%s\" %s>Help!</a> for more info and <strong>date formats</strong>."
+msgstr "Активируйте эту функцию для того, чтобы можно было выбрать дату в всплывыющем окне-календарике (Javascript). После этого у вас появится новый тип поля при создании/редактировании формы. См. раздел <a href=\"%s\" %s>Помощь (Учебник)</a> для более подробной информации о <strong>форматах дат</strong>"
+
+#: cforms-global-settings.php:146
+msgid "Popup Date Picker"
+msgstr "Дата (javascript календарь)"
+
+#: cforms-global-settings.php:137
+msgid "Leave empty to include cforms header files throughout your blog"
+msgstr "Оставьте это полем пустым чтобы скрипты и стили cforms были доступны на всех страницах сайта"
+
+#: cforms-global-settings.php:135
+msgid "exclude"
+msgstr "отключить"
+
+#: cforms-global-settings.php:135
+msgid "include"
+msgstr "включить"
+
+#: cforms-global-settings.php:131
+msgid "Page / Post ID(s)"
+msgstr " ID страниц/постов"
+
+#: cforms-global-settings.php:126
+msgid "Specify the ID(s) of <strong>pages or posts</strong> separated by comma on which you'd like to show or not show cforms. The cforms header will only be included specifically on those pages, helping to maintain all other pages neat."
+msgstr "Впишите через запятую ID <strong>страниц/постов</strong>, для которых будет включен/отключен cforms. Скрипты и стили cforms будут загружаться в header только для этих страниц."
+
+#: cforms-global-settings.php:122
+msgid "Include cforms header data only on specific pages"
+msgstr "Включить cforms для определенных страниц"
+
+#: cforms-global-settings.php:155 cforms-global-settings.php:279
+msgid "Note &raquo;"
+msgstr "Примечание &raquo;"
+
+#: cforms-global-settings.php:122 cforms-global-settings.php:146
+#: cforms-global-settings.php:174 cforms-global-settings.php:193
+#: cforms-global-settings.php:249 cforms-global-settings.php:265
+#: cforms-options.php:501 cforms-options.php:532 cforms-options.php:595
+#: cforms-options.php:728 cforms-options.php:824 cforms-options.php:846
+#: cforms-options.php:923
+msgid "top"
+msgstr "наверх"
+
+#: cforms-global-settings.php:121 cforms-global-settings.php:145
+#: cforms-global-settings.php:173 cforms-global-settings.php:192
+#: cforms-global-settings.php:248 cforms-global-settings.php:264
+#: cforms-options.php:500 cforms-options.php:531 cforms-options.php:594
+#: cforms-options.php:727 cforms-options.php:823 cforms-options.php:845
+#: cforms-options.php:922
+msgid "Expand/Collapse"
+msgstr "Развернуть/свернуть"
+
+#: cforms-global-settings.php:118
+msgid "All settings and configuration options on this page apply to all forms."
+msgstr "Настройки на этой странице являются общими (для всех форм сразу)."
+
+#: cforms-global-settings.php:107 lib_functions.php:134
+msgid "Global Settings"
+msgstr "Общие настройки"
+
+#: cforms-global-settings.php:44
+msgid "cforms tracking tables %s have been deleted."
+msgstr "таблицы для хранения оправленных данных %s удалены."
+
+#: lib_functions.php:230
+msgid "Cancel"
+msgstr "Отмена"
+
+#: lib_functions.php:229
+msgid "OK"
+msgstr "ок"
+
+#: cforms-database.php:106
+msgid "Find"
+msgstr "Найти"
+
+#: cforms-database.php:105
+msgid "of"
+msgstr "из"
+
+#: cforms-database.php:104
+msgid "No items"
+msgstr "Пусто"
+
+#: cforms-database.php:103
+msgid "Processing, please wait ..."
+msgstr "Минутку..."
+
+#: cforms-database.php:102
+msgid "Displaying {from} to {to} of {total} items"
+msgstr "Показано с {from} по {to} из общего числа: {total}"
+
+#: cforms-database.php:101
+msgid "Connection Error"
+msgstr "Ошибка соединения"
+
+#: cforms-database.php:100
+msgid "Form Submissions"
+msgstr "Формы"
+
+#: cforms-database.php:95
+msgid "View records"
+msgstr "Посмотреть"
+
+#: cforms-database.php:92
+msgid "IP"
+msgstr "IP адрес"
+
+#: cforms-database.php:91
+msgid "Date"
+msgstr "Дата"
+
+#: cforms-database.php:90
+msgid "e-mail Address"
+msgstr " email адрес"
+
+#: cforms-database.php:89 cforms-options.php:281
+msgid "Form Name"
+msgstr "Форма"
+
+#: cforms-database.php:30
+msgid "Tracking Form Data"
+msgstr "Отслеживание"
+
+#: cforms-css.php:165
+msgid "Theme Preview"
+msgstr "Предпросмотр темы"
+
+#: cforms-css.php:165
+msgid "PREVIEW:"
+msgstr "ПРЕДПРОСМОТР:"
+
+#: cforms-css.php:152
+msgid "No styles are being used"
+msgstr "Стили не использовались."
+
+#: cforms-css.php:150
+msgid "Reactivate CSS styling!"
+msgstr "Включить стили для всех форм!"
+
+#: cforms-css.php:148
+msgid "Deactivate CSS styling altogether!"
+msgstr "Отключить стили для всех форм!"
+
+#: cforms-css.php:141
+msgid "Select Style &raquo;"
+msgstr "Выберите стиль &raquo;"
+
+#: cforms-css.php:136
+msgid "jQuery UI theme"
+msgstr "jQuery UI тема"
+
+#: cforms-css.php:112
+msgid "cform css files"
+msgstr "css файлы плагина cforms"
+
+#: cforms-css.php:93
+msgid "custom css files"
+msgstr "свои css файлы"
+
+#: cforms-css.php:87
+msgid "Please make sure that the <code>/styling</code> folder exists in the cforms plugin directory!"
+msgstr "Убедитесь, что папка <code>/styling</code> существует в папке плагина  cforms"
+
+#: cforms-css.php:78
+msgid "Please choose a theme file to style your forms"
+msgstr "Выбрать файл стилей:"
+
+#: cforms-css.php:67
+msgid "Please select a theme file that comes closest to what you're looking for."
+msgstr "Можете выбрать стиль из представленных ниже."
+
+#: cforms-css.php:61
+msgid "New theme selected."
+msgstr "Выбрана новая тема."
+
+#: cforms-css.php:36 lib_functions.php:253
+msgid "Please go to your <strong>Plugins</strong> tab and either disable the plugin, or toggle its status (disable/enable) to revive cforms!"
+msgstr "Перейдите в раздел <strong>Плагины</strong> и деактивируйте плагин. Или сначала деактивируйте, а потом активируйте — чтобы начать пользоваться  cforms «с чистого листа»."
+
+#: cforms-css.php:35 lib_functions.php:251
+msgid "All cforms data has been erased!"
+msgstr "Все данные удалены!"
+
+#: cforms-css.php:33 cforms-css.php:65 cforms-help.php:38 cforms-help.php:915
+msgid "Styling your forms"
+msgstr "Стили (css) для форм"
+
+#: cforms-corrupted.php:80
+msgid "FIX and save data"
+msgstr "Исправить и сохранить данные"
+
+#: cforms-corrupted.php:74
+msgid "Depending on your Wordpress/PHP skills you may want to try and fix the serialized data below, then hit the fix button or try just like that, cforms may magically fix it for you."
+msgstr "В зависимости от Ваших знаний Wordpress/PHP Вы можете попробовать исправить данные, после внесения правки нажмите на кнопку. Или просто нажмите на кнопку, возможно вам повезет и cforms сможет исправить это самостоятельно."
+
+#: cforms-corrupted.php:71
+msgid "Corrupted cforms settings array (raw code)"
+msgstr "Массив поврежденных параметров настроек cforms (необработанный код)"
+
+#: cforms-corrupted.php:68
+msgid "RESET"
+msgstr "СБРОСИТЬ"
+
+#: cforms-corrupted.php:68
+msgid "You can either try and fix the settings array or reset it and start from scratch."
+msgstr "Вы можете попробовать исправить настройки или восстановить для cforms настройки по умолчанию."
+
+#: cforms-corrupted.php:66
+msgid "Corrupted cforms settings detected"
+msgstr "Поврежденные настройки cforms обнаружены"
+
+#: cforms-corrupted.php:57
+msgid "It appears that WP has corrupted your cforms settings, the settings array can not be read properly."
+msgstr "Кажется, WordPress повредил настройки cforms, массив настроек не может быть прочитан должным образом."
+
+#: cforms-corrupted.php:30 cforms-corrupted.php:51
+msgid "Please deactivate and then re-activate the cforms plugin now."
+msgstr "Сейчас деактивируйте и затем снова активируйте плагин cforms."
+
+#: cforms-corrupted.php:24 lib_functions.php:77
+msgid "cforms error"
+msgstr "ошибка cforms"
+
+#: cforms-global-settings.php:269 cforms-help.php:411
+#: fieldtypes/question_and_answer.php:34
+msgid "Visitor verification (Q&amp;A)"
+msgstr "Защита от спама (вопрос-ответ)"

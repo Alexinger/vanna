@@ -1,0 +1,141 @@
+2017-12-21T17:58:45+00:00 DEBUG ---[ New Import ] PHP Memory: 256 MB, WP Memory: 40 MB
+2017-12-21T17:58:45+00:00 DEBUG Parsing products CSV.
+2017-12-21T17:58:45+00:00 DEBUG Finished parsing products CSV.
+2017-12-21T17:58:45+00:00 DEBUG ---
+2017-12-21T17:58:45+00:00 DEBUG Processing products.
+2017-12-21T17:58:45+00:00 DEBUG > Row 1 - preparing for merge.
+2017-12-21T17:58:45+00:00 DEBUG > Merging post ID 2163.
+2017-12-21T17:58:45+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2163
+    [post_content] => Запчасти на автомобиль Mitsubishi Carisma 1997.
+    [post_title] => Mitsubishi Carisma (мицубиси каризма 97)
+    [post_author] => 3
+    [post_date] => 2017-12-10 19:31:03
+    [post_name] => mitsubishi-carisma-micubisi-karizma-97
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:45+00:00 DEBUG > > Image exists - skipping IMG_20171118_162255.jpg
+2017-12-21T17:58:45+00:00 DEBUG > > Image exists - skipping IMG_20171118_162035.jpg
+2017-12-21T17:58:45+00:00 DEBUG > > Importing image "http://zapchast-bu.ru/wp-content/uploads/IMG_20171118_162021.jpg"
+2017-12-21T17:58:45+00:00 DEBUG > > Inserted image attachment "IMG_20171118_162021-1.jpg"
+2017-12-21T17:58:45+00:00 DEBUG > > Imported image "http://zapchast-bu.ru/wp-content/uploads/IMG_20171118_162021.jpg"
+2017-12-21T17:58:45+00:00 DEBUG > > Images set
+2017-12-21T17:58:45+00:00 DEBUG > Finished merging post ID 2163.
+2017-12-21T17:58:45+00:00 DEBUG > Row 2 - preparing for merge.
+2017-12-21T17:58:45+00:00 DEBUG > Merging post ID 2167.
+2017-12-21T17:58:45+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2167
+    [post_content] => Кузов на Гольф 3
+    [post_title] => Кузов Golf 3 универсал 1997 1.8 ААМ
+    [post_author] => 3
+    [post_date] => 2017-12-10 21:33:28
+    [post_name] => kuzov-golf-3-universal-1997-1-8-aam
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:45+00:00 DEBUG > > Image exists - skipping IMG_20171114_130644-1.jpg
+2017-12-21T17:58:45+00:00 DEBUG > > Image exists - skipping IMG_20171114_130629.jpg
+2017-12-21T17:58:45+00:00 DEBUG > > Image exists - skipping IMG_20171114_130613.jpg
+2017-12-21T17:58:45+00:00 DEBUG > > Images set
+2017-12-21T17:58:45+00:00 DEBUG > Finished merging post ID 2167.
+2017-12-21T17:58:45+00:00 DEBUG > Row 3 - preparing for merge.
+2017-12-21T17:58:45+00:00 DEBUG > Merging post ID 2172.
+2017-12-21T17:58:45+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2172
+    [post_content] => Генератор на Golf 3 универсал, шум подшипника.
+    [post_title] => Генератор на Golf 3 универсал
+    [post_author] => 3
+    [post_date] => 2017-12-10 21:34:47
+    [post_name] => generator-na-golf-3-universal
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:46+00:00 DEBUG > > Image exists - skipping генератор.jpg
+2017-12-21T17:58:46+00:00 DEBUG > > Image exists - skipping генератор-шум-подшипника.jpg
+2017-12-21T17:58:46+00:00 DEBUG > > Images set
+2017-12-21T17:58:46+00:00 DEBUG > Finished merging post ID 2172.
+2017-12-21T17:58:46+00:00 DEBUG > Row 4 - preparing for merge.
+2017-12-21T17:58:46+00:00 DEBUG > Merging post ID 2175.
+2017-12-21T17:58:46+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2175
+    [post_content] => Стартер на Golf 3 универсал, сломано ухо но не крепление.
+    [post_title] => Стартер на Golf 3 универсал
+    [post_author] => 3
+    [post_date] => 2017-12-10 21:38:12
+    [post_name] => starter-na-golf-3-universal
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:46+00:00 DEBUG > > Image exists - skipping стартер.jpg
+2017-12-21T17:58:46+00:00 DEBUG > > Image exists - skipping стартер-сломано-ухо-но-не-крепление.jpg
+2017-12-21T17:58:46+00:00 DEBUG > > Images set
+2017-12-21T17:58:46+00:00 DEBUG > Finished merging post ID 2175.
+2017-12-21T17:58:46+00:00 DEBUG > Row 5 - preparing for merge.
+2017-12-21T17:58:46+00:00 DEBUG > Merging post ID 2178.
+2017-12-21T17:58:46+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2178
+    [post_content] => Колеса на Golf 3 универсал.
+    [post_title] => Колеса на Golf 3 универсал
+    [post_author] => 3
+    [post_date] => 2017-12-10 21:40:34
+    [post_name] => kolesa-na-golf-3-universal
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:46+00:00 DEBUG > > Image exists - skipping IMG_20171113_125735.jpg
+2017-12-21T17:58:46+00:00 DEBUG > > Image exists - skipping IMG_20171113_125726.jpg
+2017-12-21T17:58:46+00:00 DEBUG > > Images set
+2017-12-21T17:58:46+00:00 DEBUG > Finished merging post ID 2178.
+2017-12-21T17:58:46+00:00 DEBUG > Row 6 - preparing for merge.
+2017-12-21T17:58:46+00:00 DEBUG > > Raw Term s123s343 ID = 91
+2017-12-21T17:58:46+00:00 DEBUG > > Raw Term 23234524 ID = 92
+2017-12-21T17:58:46+00:00 DEBUG > Merging post ID 2184.
+2017-12-21T17:58:46+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2184
+    [post_content] => Двигатель на Golf 3 универсал 1.8 ААМ
+    [post_excerpt] => Просто двигатель.
+    [post_title] => Двигатель на Golf 3 универсал 1.8 ААМ
+    [post_author] => 3
+    [post_date] => 2017-12-10 21:46:52
+    [post_name] => dvigatel-na-golf-3-universal-1-8-aam
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:46+00:00 DEBUG > > Importing image "http://zapchast-bu.ru/wp-content/uploads/IMG_20171118_162255.jpg"
+2017-12-21T17:58:46+00:00 DEBUG > > Inserted image attachment "IMG_20171118_162255-1.jpg"
+2017-12-21T17:58:46+00:00 DEBUG > > Imported image "http://zapchast-bu.ru/wp-content/uploads/IMG_20171118_162255.jpg"
+2017-12-21T17:58:46+00:00 DEBUG > > Images set
+2017-12-21T17:58:47+00:00 DEBUG > Finished merging post ID 2184.
+2017-12-21T17:58:47+00:00 DEBUG > Row 7 - preparing for merge.
+2017-12-21T17:58:47+00:00 DEBUG > Merging post ID 2411.
+2017-12-21T17:58:47+00:00 DEBUG > Merged post data: Array
+(
+    [ID] => 2411
+    [post_content] => sfsdfs
+    [post_title] => Test product
+    [post_author] => 3
+    [post_date] => 2017-12-19 18:15:17
+    [post_name] => test-product
+    [post_status] => publish
+    [comment_status] => closed
+)
+
+2017-12-21T17:58:47+00:00 DEBUG > > Importing image "http://zapchast-bu.ru/wp-content/uploads/proba.jpg"
+2017-12-21T17:58:47+00:00 DEBUG > > Inserted image attachment "proba-1.jpg"
+2017-12-21T17:58:47+00:00 DEBUG > > Imported image "http://zapchast-bu.ru/wp-content/uploads/proba.jpg"
+2017-12-21T17:58:47+00:00 DEBUG > > Images set
+2017-12-21T17:58:47+00:00 DEBUG > Finished merging post ID 2411.
+2017-12-21T17:58:47+00:00 DEBUG Finished processing products.

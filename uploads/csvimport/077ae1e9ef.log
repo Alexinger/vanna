@@ -1,0 +1,150 @@
+-- Skipping the first line
+Product found (SKU), ID is: 3120
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3120
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3121
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3121
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3141
+http://mailpo.ru/2111/кузов/reshotka rad cen 300.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3141
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/reshotka rad cen 300.jpg uploaded
+The image is attached as featured image
+-----> end row
+Product found (SKU), ID is: 3142
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3142
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3144
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3144
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3147
+http://mailpo.ru/2111/кузов/bamper per cen 1000.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3147
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/bamper per cen 1000.jpg uploaded
+The image is attached as featured image
+-----> end row
+Product found (SKU), ID is: 3148
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3148
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3151
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3151
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3153
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3153
+No featured image available 
+-----> end row
+Product found (SKU), ID is: 3156
+http://mailpo.ru/2111/кузов/kapot cen 2000.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3156
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/кузов/kapot cen 2000.jpg uploaded
+The image is attached as featured image
+-----> end row
+Product found (SKU), ID is: 3157
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3157
+No featured image available 
+-----> end row
+-----> Row
+No title, slug or content. Filled in dummy content
+post status changed to publish
+ping status changed to ping
+title is empty status changed to draft
+menu order changed to 0
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 3164
+No featured image available 
+-----> end row
+ 
+-----> Row
+No title, slug or content. Filled in dummy content
+post status changed to publish
+ping status changed to ping
+title is empty status changed to draft
+menu order changed to 0
+stock status changed to instock
+visibility changed to visible
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 3165
+featured image is imported using the filename
+The image is attached as featured image
+-----> end row

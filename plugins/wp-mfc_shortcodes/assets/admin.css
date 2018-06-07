@@ -1,0 +1,24 @@
+.tve-shortcode{padding-right: 20px;}
+.tve-shortcode .block-form{
+	background: #fff;
+    padding: 1px 15px;
+    margin: 10px 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.12);
+}
+.tve-shortcode input[type=text]{
+	width:100%;
+	padding: 2px;
+    line-height: 28px;
+    height: 28px;
+}
+.tve-shortcode textarea{
+	width:100%;
+	height: 100px;
+}
+.tve-shortcode td{
+	border-top:1px solid #ccc;
+}
+.tve-shortcode .tve-td-group{
+	background: #f2f2f2;
+}
+.tve-shortcode button a{text-decoration: none; color:#000; cursor: context-menu;}

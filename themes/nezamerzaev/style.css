@@ -1,0 +1,83 @@
+/*
+ Theme Name:     Nezamerzaev
+ Description:    My description
+ Author:         Me
+ Author URI:     http://ig-na.ru/
+ Template:       customizr-pro
+ Version:        1.0.0
+*/<br>
+@import url('../customizr-pro/style.css');
+
+
+/*  ------------- цвет шапки, фона, футера  ------------- */
+.tc-header {
+  background: #ffffff;
+      color: #000000;
+}
+body {
+background: #ffffff;
+
+}
+footer#footer {
+  background: #5a5a5a;
+      color: #ffffff;
+	  min-height: 100%;
+}
+
+.wc-layered-nav-term {
+	text-align: center;
+}
+
+/*  ------------- Мигание текста  ------------- */
+#blinking {
+	-webkit-animation: blink 2s linear infinite; 
+	animation: blink 2s linear infinite; 
+	font-weight: bold; 
+	color: color: #F00; 
+}
+
+@-webkit-keyframes blink { 
+	0% { color: #F00; }
+	50% { color: #FBB; }
+	100% { color: #F00; }
+}
+
+@keyframes blink {  
+	0% { color: #F00; }
+	50% { color: #FBB; }
+	100% { color: #F00; } 
+}
+
+
+#alrt_b, #alrt_b2,#alrt_b3,#alrt_b4{display:none;}
+
+
+/*  ------------- Форма ввода и кнопка плагина подписки на акции  ------------- */
+.uneditable-input, input, textarea {
+	width: 80%;
+}
+.wysija-submit.wysija-submit-field , submit {
+width:  80%; // длина кнопки
+padding-top: 15%;
+padding-bottom: 15%;
+padding: 5%;
+border: 0;
+background: transparent url(/knopka-ok-green.png) no-repeat center bottom;
+background-size: contain;
+text-indent: -1000em;
+}
+.wysija-submit.wysija-submit-field:hover  {
+width:  79%;  // длина кнопки
+padding:0;
+border: 0;
+background: transparent url(/knopka-ok-blue.png) no-repeat center top ;
+background-size: contain;
+text-indent: -1000em;
+filter: alpha (Opacity=65);/* прозрачность для IE */
+opacity: 0.65;/* прозрачность для других браузеров */
+}
+/*  ------------- кнопка добавить в корзину  ------------- */
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+background-color: #00FFFF;
+}
+

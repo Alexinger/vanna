@@ -1,0 +1,31 @@
+-- Skipping the first line
+Product found (SKU), ID is: 3120
+http://mailpo.ru/2111/двигатель/2111 1,5.jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+manage_stock changed to no
+Product saved with ID: 3120
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/двигатель/2111 1,5.jpg uploaded
+The image is attached as featured image
+Image with url: http://mailpo.ru/2111/двигатель/dvigat 1,5 cen 10000 (1).jpg uploaded
+Image with url: http://mailpo.ru/2111/двигатель/dvigat 1,5 cen 10000 (2).jpg uploaded
+-----> end row
+Product found (SKU), ID is: 3121
+http://mailpo.ru/2111/двигатель/korpus s voz filjtra cen 500 (1).jpg
+-----> Row
+ping status changed to ping
+menu order changed to 0
+stock status changed to instock
+backorders changed to no
+featured changed to no
+manage_stock changed to no
+Product saved with ID: 3121
+featured image is imported using the URL
+Image with url: http://mailpo.ru/2111/двигатель/korpus s voz filjtra cen 500 (1).jpg uploaded
+The image is attached as featured image
+Image with url: http://mailpo.ru/2111/двигатель/korpus s voz filjtra cen 500 (2).jpg uploaded
+-----> end row
