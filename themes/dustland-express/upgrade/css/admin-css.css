@@ -1,0 +1,13 @@
+span.premium-link {
+	color: #00b9eb;
+}
+
+/* ---- Category ID Column ---- */
+.cat_id_note {
+    display: block;
+    font-size: 10px;
+    color: #999;
+}
+.column-cat_id {
+    width: 15%;
+}
