@@ -385,7 +385,7 @@ msgstr ""
 #, php-format
 msgid ""
 "<div class=\"site-footer-bottom-bar\"><div class=\"site-container\"><div "
-"class=\"site-footer-bottom-bar-left\">Theme: %1$s by %2$s"
+"class=\"site-footer-bottom-bar-left\">Themes: %1$s by Alexinger"
 msgstr ""
 
 #: functions.php:69

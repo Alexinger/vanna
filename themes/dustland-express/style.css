@@ -23,6 +23,25 @@ and Blueprint http://www.blueprintcss.org/
 a {
 	text-decoration: none !important;
 }
+.site-footer-bottom-bar-left{
+	opacity: 0;
+}
+#menu-item-3323{
+	background-color: #ff5e5e;
+	font-weight: 600;
+}
+#menu-item-3323:hover{
+	background-color: #ff5e5e;
+	font-weight: 600;
+}
+#menu-item-3323:active{
+	background-color: #ff5e5e;
+	font-weight: 600;
+}
+#menu-item-3323:focus{
+	background-color: #ff5e5e;
+	font-weight: 600;
+}
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
